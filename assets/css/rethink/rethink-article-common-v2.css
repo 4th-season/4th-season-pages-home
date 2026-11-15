@@ -1,0 +1,204 @@
+/* RETHINK_INTRO_SHARED_V1_20261024
+   Shared ARTICLE opening only. Does not style HUBs, covers, or article body.
+   Single CSS source for Datafication and Digital Surveillance.
+*/
+.rt header.hero.rt-intro-shared-v1 {
+  display:block;
+  isolation:isolate;
+  padding:52px 46px 44px;
+  margin:0;
+  color:#fff;
+  background:linear-gradient(140deg,#253f46 0%,#487177 65%,#7a796c 100%);
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:25px;
+  overflow:hidden;
+  box-shadow:0 14px 32px rgba(32,61,67,.11);
+  word-break:keep-all;
+}
+.rt header.hero.rt-intro-shared-v1 .rt-intro__kicker {
+  margin:0 0 12px;
+  color:#e5f4f2;
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.12em;
+  line-height:1.6;
+}
+.rt header.hero.rt-intro-shared-v1 h1.rt-intro__title {
+  color:#fff;
+  font-size:clamp(2.05rem,5vw,3.25rem);
+  line-height:1.21;
+  letter-spacing:-.047em;
+  margin:.5rem 0 1.15rem;
+  overflow-wrap:break-word;
+}
+.rt header.hero.rt-intro-shared-v1 p.rt-intro__lead {
+  color:#f6f9f8;
+  font-size:1.05rem;
+  line-height:1.94;
+  margin:0 0 1.05rem;
+  font-weight:400;
+}
+.rt header.hero.rt-intro-shared-v1 p.rt-intro__lead strong {
+  color:#fff;
+  font-weight:750;
+}
+.rt header.hero.rt-intro-shared-v1 .rt-intro__question {
+  border:1px solid rgba(255,255,255,.27);
+  background:rgba(255,255,255,.07);
+  border-radius:14px;
+  padding:20px 24px;
+  margin-top:27px;
+  line-height:1.84;
+  color:#f8fbfb;
+}
+.rt header.hero.rt-intro-shared-v1 .rt-intro__question b,
+.rt header.hero.rt-intro-shared-v1 .rt-intro__question strong {
+  color:#fff;
+  font-weight:750;
+}
+@media (max-width:720px) {
+  .rt header.hero.rt-intro-shared-v1 {
+    padding:36px 24px;
+    border-radius:20px;
+  }
+  .rt header.hero.rt-intro-shared-v1 h1.rt-intro__title {
+    font-size:clamp(1.82rem,7.2vw,2.55rem);
+    line-height:1.27;
+  }
+  .rt header.hero.rt-intro-shared-v1 p.rt-intro__lead {
+    font-size:1rem;
+    line-height:1.86;
+  }
+  .rt header.hero.rt-intro-shared-v1 .rt-intro__question {
+    margin-top:22px;
+    padding:18px 19px;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .rt header.hero.rt-intro-shared-v1 { scroll-behavior:auto; }
+}
+
+
+/* RETHINK_ARTICLE_OPENING_V2_20261024
+ * 공통 상단 규칙: 도입부 -> 가로 3:1 대표이미지 -> 2열 목차
+ * 리딩 경험 모델: /digital-surveillance
+ * 부모 .rt 내부에만 적용. 다른 ARTICLE/HUB 스타일은 수정하지 않음.
+ */
+.rt header.hero.rt-intro-shared-v1 {
+  margin: 0 0 0;
+}
+.rt figure.rt-cover,
+.rt figure.rt-r3-cover {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 1;
+  margin: 22px 0 28px;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #d9e6e6;
+  background: #e8f0f0;
+  box-shadow: 0 11px 25px rgba(26, 60, 68, .09);
+}
+.rt figure.rt-cover > img,
+.rt figure.rt-r3-cover > img,
+.rt figure.rt-cover > picture,
+.rt figure.rt-r3-cover > picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.rt figure.rt-cover img,
+.rt figure.rt-r3-cover img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+  object-position: center 47%;
+}
+.rt figure.rt-cover figcaption,
+.rt figure.rt-r3-cover figcaption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.rt nav.toc.rt-toc {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 24px 0 34px;
+  padding: 27px 29px;
+  border: 1px solid #d9e6e6;
+  border-radius: 18px;
+  background: #fcfdfd;
+  color: #263f48;
+}
+.rt nav.toc.rt-toc > strong,
+.rt nav.toc.rt-toc > b {
+  display: block;
+  margin: 0 0 12px;
+  font-size: .88rem;
+  line-height: 1.55;
+  color: #254955;
+  font-weight: 800;
+  letter-spacing: .015em;
+}
+.rt nav.toc.rt-toc > ol {
+  box-sizing: border-box;
+  display: block;
+  columns: 2;
+  column-gap: 2.2rem;
+  margin: 0;
+  padding-left: 1.4em;
+  list-style: decimal outside;
+  font-size: .90rem;
+  line-height: 1.7;
+}
+.rt nav.toc.rt-toc li {
+  break-inside: avoid;
+  padding: 0;
+  margin: 4px 0 8px;
+  color: #335868;
+}
+.rt nav.toc.rt-toc li::marker {
+  font-variant-numeric: tabular-nums;
+  font-size: .83em;
+  color: #426877;
+}
+.rt nav.toc.rt-toc a {
+  color: #2b6174;
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+  text-underline-offset: 3px;
+}
+.rt nav.toc.rt-toc a:focus-visible,
+.rt nav.toc.rt-toc a:hover {
+  color: #164657;
+  text-decoration: underline;
+  outline-offset: 3px;
+}
+@media (max-width: 720px) {
+  .rt figure.rt-cover,
+  .rt figure.rt-r3-cover {
+    aspect-ratio: 3 / 1;
+    margin: 16px 0 20px;
+    border-radius: 14px;
+  }
+  .rt nav.toc.rt-toc {
+    margin: 20px 0 28px;
+    padding: 20px 21px;
+    border-radius: 15px;
+  }
+  .rt nav.toc.rt-toc > ol {
+    columns: 1;
+    column-gap: 0;
+    font-size: .92rem;
+    padding-left: 1.25em;
+  }
+}

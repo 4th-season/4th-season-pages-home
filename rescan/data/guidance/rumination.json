@@ -1,0 +1,6 @@
+{
+  "schemaVersion": "1.0.0",
+  "checklistId": "rumination",
+  "selectionPolicy": {"strategy": "none", "fallback": "none"},
+  "cards": []
+}

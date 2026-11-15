@@ -1,0 +1,99 @@
+{
+  "schemaVersion": "1.0.0",
+  "checklistId": "stress",
+  "selectionPolicy": {
+    "strategy": "leading-category-first",
+    "description": "긴장과 회복 저하 가운데 환산 점수가 더 높은 영역에서 원응답 조건이 충족되는 카드 한 장만 선택한다. 최상위 후보가 동일 조건 수와 동일 우선순위로 겹치면 아무 카드도 출력하지 않는다.",
+    "fallback": "none"
+  },
+  "cards": [
+    {
+      "id": "stress-tension-01",
+      "category": "tension",
+      "priority": 95,
+      "replaceGeneric": true,
+      "title": "여러 압박이 한꺼번에 몸과 마음을 당기는 때",
+      "conditions": {"all":[{"questionId":"q03","operator":"gte","value":2},{"questionId":"q07","operator":"gte","value":2},{"questionId":"q09","operator":"gte","value":2}]},
+      "scene": "해야 할 일을 떠올리는 순간부터 긴장이 시작되고, 여러 일을 동시에 처리하거나 시간에 쫓길 때 압박이 크게 높아지는 응답입니다. 이 장면은 스트레스를 견디는 힘이 부족하다기보다 처리해야 할 요구의 양과 속도가 현재의 여유를 넘어선 모습에 가깝습니다.",
+      "response": {"type":"scene","title":"이 장면에서는","text":"집중력을 높이는 방법을 더 붙이기보다 실제로 동시에 떠안은 일 가운데 순서를 바꾸거나 다른 사람과 나누어야 할 몫이 있는지 먼저 확인하는 편이 적절합니다."},
+      "rationale": "과부하를 개인의 집중력 문제로 환원하지 않는다."
+    },
+    {
+      "id": "stress-tension-02",
+      "category": "tension",
+      "priority": 90,
+      "replaceGeneric": true,
+      "title": "예상하지 못한 변화가 오래 긴장으로 남는 때",
+      "conditions": {"all":[{"questionId":"q01","operator":"gte","value":2},{"questionId":"q05","operator":"gte","value":2},{"questionId":"q11","operator":"gte","value":2}]},
+      "scene": "계획에 없던 일이 생기면 마음을 가라앉히기 어렵고, 작은 지연이나 변화에도 예민해지며 피곤할수록 감정의 흔들림이 커지는 응답입니다. 변화 자체보다 이미 사용 중인 에너지가 적어 새 자극을 받아들일 여유가 부족한 상태일 수 있습니다.",
+      "response": {"type":"question","title":"이 결과가 오래 남기는 물음","text":"최근 예민해진 장면에서 실제로 문제가 컸던 것과, 이미 지쳐 있어서 더 크게 느껴진 것은 각각 무엇이었나요?"},
+      "rationale": "사건의 크기와 누적 피로의 영향을 구분한다."
+    },
+    {
+      "id": "stress-tension-03",
+      "category": "tension",
+      "priority": 80,
+      "replaceGeneric": true,
+      "title": "할 일을 시작하기 전부터 긴장이 먼저 올라오는 때",
+      "conditions": {"all":[{"questionId":"q03","operator":"gte","value":2},{"questionId":"q07","operator":"lte","value":1},{"questionId":"q09","operator":"lte","value":1}]},
+      "scene": "실제 일정이 겹치거나 시간이 부족한 상황보다, 해야 할 일을 떠올리는 순간 몸과 마음이 먼저 긴장하는 응답입니다. 일의 양보다 그 일을 시작하며 예상하는 실패·책임·불편이 긴장을 크게 만들고 있을 수 있습니다.",
+      "response": {"type":"experiment","title":"다음 비슷한 장면에서 한 번 살펴볼 일","text":"다음에 할 일을 떠올리자마자 긴장이 올라오면 바로 해결하려 하지 말고, 실제로 지금 시작해야 하는 첫 동작이 무엇인지 한 문장으로만 적어 보세요. 계획을 완성하는 것이 아니라 예상한 부담과 지금 필요한 행동의 크기가 같은지 확인하는 실험입니다."},
+      "rationale": "예상된 부담과 실제 첫 행동을 구분한다."
+    },
+    {
+      "id": "stress-tension-04",
+      "category": "tension",
+      "priority": 75,
+      "replaceGeneric": true,
+      "title": "평소에는 버티지만 피로가 쌓이면 감정이 크게 흔들리는 때",
+      "conditions": {"all":[{"questionId":"q05","operator":"gte","value":2},{"questionId":"q11","operator":"gte","value":2},{"questionId":"q01","operator":"lte","value":1}]},
+      "scene": "예상하지 못한 상황 자체에는 어느 정도 대응하지만, 피로가 쌓인 날에는 작은 변화에도 예민해지고 감정이 크게 흔들리는 응답입니다. 이때의 핵심은 감정 조절 능력보다 피로가 감당 가능한 선을 넘는 시점을 놓치고 있지는 않은지에 있습니다.",
+      "response": {"type":"question","title":"이 결과가 오래 남기는 물음","text":"감정이 커진 날을 돌아보면, 그 전에 이미 포기했거나 미뤘던 수면·식사·휴식의 신호는 무엇이었나요?"},
+      "rationale": "감정 문제보다 앞선 생활 신호를 읽는다."
+    },
+    {
+      "id": "stress-recovery-01",
+      "category": "recovery",
+      "priority": 95,
+      "replaceGeneric": true,
+      "title": "하루가 끝나도 긴장이 끝나지 않는 때",
+      "conditions": {"all":[{"questionId":"q04","operator":"gte","value":2},{"questionId":"q08","operator":"gte","value":2},{"questionId":"q12","operator":"gte","value":2}]},
+      "scene": "하루를 마친 뒤에도 머릿속이 쉽게 멈추지 않고, 쉬는 시간을 가져도 피로가 충분히 풀리지 않으며 일과 휴식의 경계도 흐릿한 응답입니다. 시간은 비어 있어도 책임과 생각에서 실제로 빠져나오지 못하는 상태일 수 있습니다.",
+      "response": {"type":"scene","title":"이 장면에서는","text":"휴식 활동을 더 추가하기보다 언제 일이 끝났다고 판단하는지, 연락과 책임이 어디까지 이어지는지처럼 회복을 막는 경계를 먼저 살펴보는 편이 낫습니다."},
+      "rationale": "회복 저하를 휴식 기술 부족으로 단순화하지 않는다."
+    },
+    {
+      "id": "stress-recovery-02",
+      "category": "recovery",
+      "priority": 90,
+      "replaceGeneric": true,
+      "title": "잠을 자도 다시 해볼 힘이 충분히 돌아오지 않는 때",
+      "conditions": {"all":[{"questionId":"q10","operator":"lte","value":1},{"questionId":"q08","operator":"gte","value":2},{"questionId":"q04","operator":"gte","value":2}]},
+      "scene": "쉬거나 잠을 자도 피로가 남고, 하루가 끝난 뒤에도 생각이 계속 이어지는 응답입니다. 수면 시간이 부족한 문제일 수도 있지만, 잠들기 전 긴장·수면의 질·건강 상태·생활 부담이 함께 영향을 주고 있을 수 있습니다.",
+      "response": {"type":"scene","title":"이 장면에서는","text":"잠을 더 잘 자야 한다는 과제를 붙이기보다 이런 상태가 얼마나 지속됐는지와 낮 시간의 기능 저하, 통증이나 다른 신체 변화가 함께 있는지를 확인하고 필요하면 의료 전문가와 상의하는 편이 안전합니다."},
+      "rationale": "지속되는 회복 저하를 수면 습관 하나로 환원하지 않는다."
+    },
+    {
+      "id": "stress-recovery-03",
+      "category": "recovery",
+      "priority": 85,
+      "replaceGeneric": true,
+      "title": "좋아하는 일이나 사람도 회복으로 잘 이어지지 않는 때",
+      "conditions": {"all":[{"questionId":"q06","operator":"lte","value":1},{"questionId":"q08","operator":"gte","value":2},{"questionId":"q10","operator":"lte","value":1}]},
+      "scene": "평소 기분을 되살리던 활동이나 사람과의 만남이 이전만큼 회복으로 이어지지 않고, 쉬거나 잠을 자도 힘이 충분히 돌아오지 않는 응답입니다. 즐거움을 찾는 노력이 부족하다기보다 현재의 피로와 긴장이 회복 자원보다 더 커졌을 수 있습니다.",
+      "response": {"type":"scene","title":"이 장면에서는","text":"새 활동을 더 찾으라는 요구보다 일상 기능 저하와 무기력·절망감이 함께 지속되는지 살피고, 혼자 견디기보다 사람과 전문적 지원을 연결하는 편이 중요합니다."},
+      "rationale": "활동 추가가 또 다른 과제가 되지 않도록 한다."
+    },
+    {
+      "id": "stress-recovery-04",
+      "category": "recovery",
+      "priority": 80,
+      "replaceGeneric": true,
+      "title": "잠깐 쉬면 나아지지만 일의 경계는 계속 흐린 때",
+      "conditions": {"all":[{"questionId":"q02","operator":"gte","value":2},{"questionId":"q04","operator":"gte","value":2},{"questionId":"q12","operator":"gte","value":2}]},
+      "scene": "짧게 쉬면 긴장이 어느 정도 풀리지만 하루를 마친 뒤에도 생각이 이어지고, 일과 휴식의 경계를 정하기는 어려운 응답입니다. 회복 능력이 없는 것이 아니라 회복할 틈이 생겨도 곧바로 다시 일의 흐름에 붙잡히는 모습일 수 있습니다.",
+      "response": {"type":"experiment","title":"다음 비슷한 장면에서 한 번 살펴볼 일","text":"다음에 짧은 휴식 뒤 다시 일을 시작할 때, 시작하기 전에 오늘 반드시 끝낼 일인지 내일로 넘겨도 되는 일인지 한 번만 구분해 보세요. 일을 줄이는 데 성공하는 것보다 스스로 경계를 정할 권한이 실제로 있는지 확인하는 실험입니다."},
+      "rationale": "회복 자원이 작동하는 틈과 경계 설정 가능성을 확인한다."
+    }
+  ]
+}

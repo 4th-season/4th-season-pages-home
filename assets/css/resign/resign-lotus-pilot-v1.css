@@ -1,0 +1,35 @@
+/* LOTUS_PILOT_RB_20261025; restricted to .rs-rb.rs-lotus */
+body{margin:0;color:#223439;background:#fbfcfc;font-family:Pretendard,"Noto Sans KR",system-ui,sans-serif;word-break:keep-all}
+.rs-page-header{border-bottom:1px solid #e3eeee;background:#fff}
+.rs-page-header .rs-shell{max-width:940px;margin:0 auto;padding:13px 20px;display:flex;justify-content:space-between;gap:12px;color:#50717a;font-size:14px}
+.rs-page-header a{color:#286875;text-decoration:none;font-weight:800}
+.rs-rb.rs-lotus{max-width:940px;margin:0 auto;padding:28px 21px 80px;color:#26383a;font-size:16px;line-height:1.94}
+.rs-lotus h2{font-size:clamp(1.28rem,2.4vw,1.67rem);color:#25464b;letter-spacing:-.025em;line-height:1.42;margin:0 0 16px}
+.rs-lotus h3{font-size:1.08rem;color:#315f66;letter-spacing:-.017em;line-height:1.58;margin:28px 0 12px}
+.rs-lotus p{margin:0 0 16px;line-height:1.98}
+.rs-lotus .rs-rb__intro{margin-top:0}
+.rs-lotus .rs-rb__intro p{line-height:1.86;color:#fff}
+.rs-lotus .rs-rb__intro .rs-rb__lead{color:#f5faf9}
+.rs-lotus .rs-rb__cover{position:relative}
+.rs-lotus .rs-rb__cover img{width:100%;height:100%;object-fit:cover;display:block}
+.rs-lotus .rs-rb__toc{box-sizing:border-box;width:100%;max-width:100%;margin:24px 0 42px;padding:24px 27px;border:1px solid #d7e5e3;border-radius:18px;background:#f8fbfa}
+.rs-lotus .rs-rb__toc strong{display:block;color:#234d53;margin:0 0 10px}
+.rs-lotus .rs-rb__toc ol{columns:2;column-gap:2rem;margin:0;padding-left:1.5rem}
+.rs-lotus .rs-rb__toc li{break-inside:avoid;margin:5px 0 9px;font-size:.91rem;line-height:1.7}
+.rs-lotus .rs-rb__toc a{color:#285f67;text-decoration:none;overflow-wrap:anywhere}
+.rs-lotus .rs-rb__toc a:hover,.rs-lotus .rs-rb__toc a:focus-visible{text-decoration:underline}
+.rs-lotus .rs-lotus__unit{padding:30px 0 28px;border-top:1px solid #e0eae8}
+.rs-lotus .rs-lotus__unit:first-of-type{border-top:0}
+.rs-lotus .rs-lotus__unit figure{margin:0 0 23px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);border:1px solid #dce7e6;border-radius:17px;overflow:hidden;background:#f4f8f7}
+.rs-lotus .rs-lotus__unit figure img{width:100%;height:245px;object-fit:cover;display:block}
+.rs-lotus .rs-lotus__unit figcaption{padding:24px 20px;color:#3e5f64;font-size:.92rem;line-height:1.74;align-self:center}
+.rs-lotus .rs-lotus__unit figcaption strong{display:block;margin-bottom:8px;color:#214d55}
+.rs-lotus .rs-lotus__unit .rs-lotus__preserved{margin:16px 0 26px}
+.rs-lotus .rs-lotus__unit .rs-lotus__preserved p{max-width:100%}
+.rs-lotus .rs-rb__references,.rs-lotus .rs-rb__related{padding:27px 0;border-top:1px solid #dce6e6}
+.rs-lotus .rs-rb__references a,.rs-lotus .rs-rb__related a{color:#286776;overflow-wrap:anywhere}
+.rs-lotus .source-list{padding-left:1.4rem;font-size:.89rem;line-height:1.8}
+.rs-lotus .source-list li{padding:5px 0}
+.rs-lotus .subnote{color:#617a7d;font-size:.9rem}
+.rs-lotus .rb-footer{padding-top:16px;border-top:1px solid #e1eaea;color:#668080;font-size:.82rem}
+@media(max-width:720px){.rs-rb.rs-lotus{padding:16px 15px 64px}.rs-lotus .rs-rb__intro{padding:34px 24px}.rs-lotus .rs-rb__toc{padding:20px}.rs-lotus .rs-rb__toc ol{columns:1}.rs-lotus .rs-lotus__unit figure{display:block}.rs-lotus .rs-lotus__unit figure img{height:auto;aspect-ratio:16/10}.rs-lotus .rs-lotus__unit figcaption{padding:15px 17px}}

@@ -1,0 +1,233 @@
+
+/* REWORD-ARTICLE-COMMON-v2
+   Canonical ARTICLE structure for LIFE > Re:Word
+*/
+:root{
+  --rw-bg:#f4efe7;
+  --rw-paper:#fffdf9;
+  --rw-paper2:#fbf7f0;
+  --rw-ink:#302d29;
+  --rw-muted:#746c63;
+  --rw-brown:#5e4934;
+  --rw-brown2:#81684c;
+  --rw-line:#e5ddd2;
+  --rw-line2:#d9ccbc;
+  --rw-accent:#a98967;
+  --rw-shadow:rgba(70,54,38,.08);
+}
+html{background:var(--rw-bg)}
+body.reword-article-page{
+  margin:0;
+  background:
+    radial-gradient(circle at 14% 0%,rgba(255,255,255,.92),transparent 31rem),
+    linear-gradient(180deg,#f8f4ee 0%,#f1ebe2 100%);
+  color:var(--rw-ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR","Apple SD Gothic Neo",sans-serif;
+  font-size:18px;
+  line-height:1.86;
+  word-break:keep-all;
+  overflow-wrap:break-word;
+}
+.reword-article-shell{
+  width:min(940px,calc(100% - 32px));
+  margin:32px auto 72px;
+}
+.reword-article-cover{
+  position:relative;
+  overflow:hidden;
+  margin:0 0 18px;
+  padding:34px 34px 32px;
+  border-radius:22px;
+  background:
+    radial-gradient(circle at 92% 5%,rgba(255,255,255,.16),transparent 18rem),
+    linear-gradient(135deg,#57432f 0%,#735b43 58%,#8a7053 100%);
+  color:#fff;
+  box-shadow:0 16px 42px rgba(70,54,38,.14);
+}
+.reword-article-cover:after{
+  content:"";
+  position:absolute;
+  width:230px;height:230px;
+  right:-84px;top:-110px;
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 0 0 30px rgba(255,255,255,.035),0 0 0 60px rgba(255,255,255,.022);
+}
+.reword-article-kicker,
+.reword-article-cover .eyebrow,
+.reword-article-cover .meta{
+  position:relative;z-index:1;
+  margin:0 0 9px;
+  color:#efe2d2;
+  font-size:.8rem;
+  font-weight:850;
+  letter-spacing:.11em;
+}
+.reword-article-cover h1{
+  position:relative;z-index:1;
+  margin:0 0 15px;
+  color:#fff;
+  font-size:clamp(2rem,5vw,3.45rem);
+  line-height:1.16;
+  letter-spacing:-.045em;
+}
+.reword-article-lead,
+.reword-article-cover>p:last-child,
+.reword-article-cover .lead{
+  position:relative;z-index:1;
+  margin:0;
+  max-width:800px;
+  color:#f5eee7;
+  font-size:.96rem;
+  line-height:1.75;
+}
+.reword-article-breadcrumb,
+.reword-article-nav,
+.reword-article-toc{
+  margin:0 0 18px;
+  padding:11px 15px;
+  border:1px solid var(--rw-line);
+  border-radius:13px;
+  background:rgba(255,253,249,.72);
+  color:var(--rw-muted);
+  font-size:.82rem;
+}
+.reword-article-breadcrumb a,
+.reword-article-nav a,
+.reword-article-toc a{
+  color:var(--rw-brown);
+  font-weight:750;
+  text-decoration:none;
+}
+.reword-article-breadcrumb span{padding:0 6px;color:#b3a79a}
+.reword-article-toc strong{display:block;margin-bottom:5px;color:var(--rw-brown)}
+.reword-article-toc ol{margin:0;padding-left:1.25rem}
+.reword-article-toc li{margin:.15rem 0}
+.reword-article-body{
+  padding:30px 30px 44px;
+  border:1px solid var(--rw-line);
+  border-radius:20px;
+  background:rgba(255,253,249,.97);
+  box-shadow:0 14px 40px var(--rw-shadow);
+}
+.reword-article-body>p,
+.reword-article-body section>p{margin:0 0 1.18em}
+.reword-article-body h2{
+  margin:2.05em 0 .68em;
+  padding-bottom:10px;
+  color:var(--rw-brown);
+  font-size:1.46rem;
+  line-height:1.4;
+  letter-spacing:-.025em;
+  border-bottom:1px solid var(--rw-line);
+}
+.reword-article-body h2:first-child{margin-top:.2em}
+.reword-article-body h3{
+  margin:1.7em 0 .55em;
+  color:var(--rw-brown2);
+  font-size:1.12rem;
+  line-height:1.45;
+}
+.reword-article-body a{
+  color:var(--rw-brown);
+  font-weight:720;
+  text-underline-offset:3px;
+}
+.reword-article-body table{
+  width:100%;
+  margin:18px 0 28px;
+  border-collapse:collapse;
+  background:#fff;
+  font-size:.88rem;
+}
+.reword-article-body th,
+.reword-article-body td{
+  padding:11px 12px;
+  border:1px solid var(--rw-line);
+  text-align:left;
+  vertical-align:top;
+}
+.reword-article-body th{background:#f5efe7;color:#4f3e2e}
+.reword-article-body blockquote{
+  margin:22px 0;
+  padding:16px 18px;
+  border-left:5px solid var(--rw-accent);
+  border-radius:0 12px 12px 0;
+  background:var(--rw-paper2);
+}
+.reword-article-body ul,
+.reword-article-body ol{padding-left:1.35rem}
+.reword-article-body li{margin:.35em 0}
+.reword-article-body strong,
+.reword-article-body b{color:#4a3b2d}
+.reword-article-body .source-link{
+  color:#8a8178;
+  font-size:.78rem;
+  overflow-wrap:anywhere;
+}
+.reword-article-body .original-source,
+.reword-article-body .supplement{margin:0}
+.reword-article-body .supplement{
+  margin-top:30px;
+  padding-top:4px;
+  border-top:1px dashed var(--rw-line2);
+}
+.reword-article-body .flow,
+.reword-article-body .questions{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+  margin:18px 0 24px;
+}
+.reword-article-body .flow>div,
+.reword-article-body .questions>div{
+  padding:14px 15px;
+  border:1px solid var(--rw-line);
+  border-radius:13px;
+  background:var(--rw-paper2);
+}
+.reword-article-body .flow b,
+.reword-article-body .questions strong{display:block;margin-bottom:3px;color:var(--rw-brown)}
+.reword-article-body .flow span{display:block;color:var(--rw-muted);font-size:.88rem}
+.reword-article-body .scene,
+.reword-article-body .script,
+.reword-article-body .notice{
+  margin:18px 0 24px;
+  padding:16px 18px;
+  border:1px solid var(--rw-line2);
+  border-radius:14px;
+  background:#f8f3ec;
+}
+.reword-article-body .notice{
+  border-left:5px solid var(--rw-brown2);
+  background:#f5efe7;
+}
+.reword-article-body section.box{
+  margin:0;
+  padding:0;
+  border:0;
+  background:none;
+}
+.reword-article-body section.box+section.box{margin-top:4px}
+.reword-article-body .compare{display:table}
+.reword-article-nav{
+  width:min(940px,calc(100% - 32px));
+  margin:14px auto 0;
+}
+.reword-article-nav .wrap{
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+}
+@media(max-width:720px){
+  body.reword-article-page{font-size:17px}
+  .reword-article-shell{width:min(100% - 20px,940px);margin:16px auto 48px}
+  .reword-article-cover{padding:26px 20px;border-radius:17px}
+  .reword-article-body{padding:22px 17px 32px;border-radius:16px}
+  .reword-article-body h2{font-size:1.3rem}
+  .reword-article-body .flow,
+  .reword-article-body .questions{grid-template-columns:1fr}
+  .reword-article-nav{width:min(100% - 20px,940px)}
+  .reword-article-nav .wrap{flex-direction:column}
+}

@@ -1,0 +1,331 @@
+/* 4S:GLOBAL-ARTICLE-NAV-v2 · IN:SITE-INDEPENDENT · NAV-SCOPE-RESET-v1 */
+#fs-common-menu{--fsn-bg:rgba(255,255,255,.965);--fsn-ink:#20262b;--fsn-muted:#6f7881;--fsn-line:rgba(32,38,43,.12);--fsn-accent:#315d70;--fsn-insite:#a96818;position:sticky;top:0;z-index:2147483500;width:100%;height:auto!important;max-height:none!important;min-height:48px;overflow:visible!important;margin:0!important;padding:0!important;border-right:0!important;border-bottom:1px solid var(--fsn-line);background:var(--fsn-bg);color:var(--fsn-ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR","Apple SD Gothic Neo",sans-serif;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 4px 16px rgba(20,28,34,.035)}
+#fs-common-menu *{box-sizing:border-box}
+#fs-common-menu .fsn-inner{width:min(1240px,calc(100% - 24px));min-height:48px;margin:0 auto;padding-right:210px;display:flex;align-items:center;gap:4px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+#fs-common-menu .fsn-inner::-webkit-scrollbar{display:none}
+#fs-common-menu a{display:inline-flex;flex:0 0 auto;align-items:center;justify-content:center;min-height:32px;padding:6px 9px;border-radius:999px;color:var(--fsn-muted)!important;font-size:10.5px;line-height:1;font-weight:800;letter-spacing:.01em;text-decoration:none!important;white-space:nowrap}
+#fs-common-menu a:hover{background:#f1f4f5;color:var(--fsn-ink)!important}
+#fs-common-menu .fsn-exit{margin-right:3px;padding-left:12px;padding-right:12px;background:#eef3f5;color:var(--fsn-accent)!important;font-weight:900}
+#fs-common-menu .fsn-brand{color:var(--fsn-ink)!important;font-size:9.5px;font-weight:900;letter-spacing:.1em}
+#fs-common-menu .fsn-domain{border:1px solid transparent}
+#fs-common-menu .fsn-domain.insite{color:var(--fsn-insite)!important;border-color:rgba(169,104,24,.16);background:rgba(214,148,56,.07)}
+#fs-common-menu .fsn-series{color:var(--fsn-accent)!important;font-weight:900}
+#fs-common-menu .fsn-map{margin-left:auto}
+@media(max-width:900px){#fs-common-menu{height:auto!important;max-height:none!important;min-height:46px;overflow:visible!important}#fs-common-menu .fsn-inner{width:100%;min-height:46px;padding:0 58px 0 8px;gap:2px}#fs-common-menu a{min-height:31px;padding:6px 7px;font-size:9.5px}#fs-common-menu .fsn-brand{display:none}#fs-common-menu .fsn-map{margin-left:0}}
+@media(max-width:520px){#fs-common-menu .fsn-domain{display:inline-flex}#fs-common-menu .fsn-series{max-width:108px;overflow:hidden;text-overflow:ellipsis}}
+@media(prefers-reduced-motion:reduce){#fs-common-menu{backdrop-filter:none;-webkit-backdrop-filter:none}}
+
+/* RE:SIGN · H2 HERO 65 ARTICLE SCOPED — 2026-10-27
+ * Generated from existing 65 registered ARTICLE canonical paths.
+ * All H2 headings in one article share a stable color; palette assignment varies by article.
+ * No JavaScript, no per-refresh randomization, no impact outside these 65 root canonical URLs.
+ * Keep reference/related H2 in the same article color, as requested.
+ */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/construction-site-symbol"],
+  [href="https://4th-season.com/dam-river"],
+  [href="https://4th-season.com/luck-charm"],
+  [href="https://4th-season.com/pharaoh-tutankhamun-curse"],
+  [href="https://4th-season.com/tecumseh-curse"],
+  [href="https://4th-season.com/hope-diamond-curse"]
+)) { --rs-h2-hero-start:#155F6C; --rs-h2-hero-end:#10434E; --rs-h2-hero-accent:#8EE0DC; } /* 청록: 6편 */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/uniform-symbol"],
+  [href="https://4th-season.com/id-card-symbol"],
+  [href="https://4th-season.com/red-symbol"],
+  [href="https://4th-season.com/moon-symbol"],
+  [href="https://4th-season.com/chrysanthemum-symbol"],
+  [href="https://4th-season.com/knot-symbol"],
+  [href="https://4th-season.com/check-mark-symbol"],
+  [href="https://4th-season.com/location-pin-symbol"],
+  [href="https://4th-season.com/lightning-symbol"]
+)) { --rs-h2-hero-start:#315982; --rs-h2-hero-end:#253E60; --rs-h2-hero-accent:#9DBDF4; } /* 남색: 9편 */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/bouquet-symbol"],
+  [href="https://4th-season.com/kennedy-curse"],
+  [href="https://4th-season.com/snake"],
+  [href="https://4th-season.com/hydrangea-symbol"],
+  [href="https://4th-season.com/black-symbol"],
+  [href="https://4th-season.com/number-13-jinx"],
+  [href="https://4th-season.com/washing-ritual-symbol"],
+  [href="https://4th-season.com/marriage-custom-symbol"],
+  [href="https://4th-season.com/rainbow-symbol"],
+  [href="https://4th-season.com/iris-flower-symbol"],
+  [href="https://4th-season.com/bridge-symbol"]
+)) { --rs-h2-hero-start:#655084; --rs-h2-hero-end:#41365F; --rs-h2-hero-accent:#CEB2FA; } /* 보라: 11편 */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/seniority"],
+  [href="https://4th-season.com/candle-symbol"],
+  [href="https://4th-season.com/baskerville-curse"],
+  [href="https://4th-season.com/mummy-curse"],
+  [href="https://4th-season.com/what-is-jinx"],
+  [href="https://4th-season.com/apartment-symbol"],
+  [href="https://4th-season.com/threshold-symbol"],
+  [href="https://4th-season.com/black-cat-jinx"],
+  [href="https://4th-season.com/fish-aquarium-symbol"]
+)) { --rs-h2-hero-start:#8A4B61; --rs-h2-hero-end:#603346; --rs-h2-hero-accent:#EAB1C7; } /* 와인: 9편 */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/crown-symbol"],
+  [href="https://4th-season.com/price-tag-symbol"],
+  [href="https://4th-season.com/koh-i-noor-curse"],
+  [href="https://4th-season.com/water"],
+  [href="https://4th-season.com/closed-door-symbol"],
+  [href="https://4th-season.com/map-line-symbol"],
+  [href="https://4th-season.com/sunflower-symbol"],
+  [href="https://4th-season.com/tulip-symbol"],
+  [href="https://4th-season.com/peony-symbol"],
+  [href="https://4th-season.com/lavender-symbol"],
+  [href="https://4th-season.com/number-13-symbol"],
+  [href="https://4th-season.com/salt-jinx"]
+)) { --rs-h2-hero-start:#346D55; --rs-h2-hero-end:#214A3E; --rs-h2-hero-accent:#A0E4C1; } /* 숲색: 12편 */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/ominous-sign"],
+  [href="https://4th-season.com/taboo"],
+  [href="https://4th-season.com/lily-symbol"],
+  [href="https://4th-season.com/tree-symbol"],
+  [href="https://4th-season.com/lotus-flower-symbol"]
+)) { --rs-h2-hero-start:#8C543C; --rs-h2-hero-end:#603D30; --rs-h2-hero-accent:#F0C5A3; } /* 적갈: 5편 */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/fence-symbol"],
+  [href="https://4th-season.com/key-symbol"],
+  [href="https://4th-season.com/pele-curse"],
+  [href="https://4th-season.com/white-symbol"],
+  [href="https://4th-season.com/diamond-symbol"],
+  [href="https://4th-season.com/bird-cage-symbol"],
+  [href="https://4th-season.com/four-leaf-clover-jinx"],
+  [href="https://4th-season.com/bell-ritual-symbol"]
+)) { --rs-h2-hero-start:#466878; --rs-h2-hero-end:#304859; --rs-h2-hero-accent:#AFDCE8; } /* 청회: 8편 */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/house-symbol"],
+  [href="https://4th-season.com/symbolic-capital"],
+  [href="https://4th-season.com/mirror-symbol"],
+  [href="https://4th-season.com/cherry-blossom-symbol"],
+  [href="https://4th-season.com/mask-ritual-symbol"]
+)) { --rs-h2-hero-start:#79536E; --rs-h2-hero-end:#523B57; --rs-h2-hero-accent:#DEB6D9; } /* 자주: 5편 */
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/crown-symbol"],
+  [href="https://4th-season.com/uniform-symbol"],
+  [href="https://4th-season.com/price-tag-symbol"],
+  [href="https://4th-season.com/fence-symbol"],
+  [href="https://4th-season.com/bouquet-symbol"],
+  [href="https://4th-season.com/house-symbol"],
+  [href="https://4th-season.com/seniority"],
+  [href="https://4th-season.com/symbolic-capital"],
+  [href="https://4th-season.com/id-card-symbol"],
+  [href="https://4th-season.com/construction-site-symbol"],
+  [href="https://4th-season.com/dam-river"],
+  [href="https://4th-season.com/ominous-sign"],
+  [href="https://4th-season.com/luck-charm"],
+  [href="https://4th-season.com/taboo"],
+  [href="https://4th-season.com/key-symbol"],
+  [href="https://4th-season.com/candle-symbol"],
+  [href="https://4th-season.com/pele-curse"],
+  [href="https://4th-season.com/pharaoh-tutankhamun-curse"],
+  [href="https://4th-season.com/kennedy-curse"],
+  [href="https://4th-season.com/tecumseh-curse"],
+  [href="https://4th-season.com/hope-diamond-curse"],
+  [href="https://4th-season.com/koh-i-noor-curse"],
+  [href="https://4th-season.com/baskerville-curse"],
+  [href="https://4th-season.com/mummy-curse"],
+  [href="https://4th-season.com/snake"],
+  [href="https://4th-season.com/water"],
+  [href="https://4th-season.com/closed-door-symbol"],
+  [href="https://4th-season.com/what-is-jinx"],
+  [href="https://4th-season.com/hydrangea-symbol"],
+  [href="https://4th-season.com/map-line-symbol"],
+  [href="https://4th-season.com/red-symbol"],
+  [href="https://4th-season.com/moon-symbol"],
+  [href="https://4th-season.com/lily-symbol"],
+  [href="https://4th-season.com/apartment-symbol"],
+  [href="https://4th-season.com/mirror-symbol"],
+  [href="https://4th-season.com/sunflower-symbol"],
+  [href="https://4th-season.com/threshold-symbol"],
+  [href="https://4th-season.com/black-cat-jinx"],
+  [href="https://4th-season.com/black-symbol"],
+  [href="https://4th-season.com/chrysanthemum-symbol"],
+  [href="https://4th-season.com/knot-symbol"],
+  [href="https://4th-season.com/number-13-jinx"],
+  [href="https://4th-season.com/white-symbol"],
+  [href="https://4th-season.com/tulip-symbol"],
+  [href="https://4th-season.com/washing-ritual-symbol"],
+  [href="https://4th-season.com/tree-symbol"],
+  [href="https://4th-season.com/peony-symbol"],
+  [href="https://4th-season.com/marriage-custom-symbol"],
+  [href="https://4th-season.com/diamond-symbol"],
+  [href="https://4th-season.com/lavender-symbol"],
+  [href="https://4th-season.com/number-13-symbol"],
+  [href="https://4th-season.com/bird-cage-symbol"],
+  [href="https://4th-season.com/fish-aquarium-symbol"],
+  [href="https://4th-season.com/check-mark-symbol"],
+  [href="https://4th-season.com/salt-jinx"],
+  [href="https://4th-season.com/cherry-blossom-symbol"],
+  [href="https://4th-season.com/mask-ritual-symbol"],
+  [href="https://4th-season.com/rainbow-symbol"],
+  [href="https://4th-season.com/location-pin-symbol"],
+  [href="https://4th-season.com/four-leaf-clover-jinx"],
+  [href="https://4th-season.com/iris-flower-symbol"],
+  [href="https://4th-season.com/bridge-symbol"],
+  [href="https://4th-season.com/lightning-symbol"],
+  [href="https://4th-season.com/lotus-flower-symbol"],
+  [href="https://4th-season.com/bell-ritual-symbol"]
+)) main h2 {
+  display:block !important;
+  width:100%; max-width:100%; box-sizing:border-box;
+  position:relative; clear:both;
+  margin:2.4rem 0 1.12rem !important;
+  padding:1.04rem 1.45rem !important;
+  border:1px solid rgba(255,255,255,.14) !important;
+  border-left:6px solid var(--rs-h2-hero-accent) !important;
+  border-radius:14px !important;
+  background:linear-gradient(125deg,var(--rs-h2-hero-start),var(--rs-h2-hero-end)) !important;
+  box-shadow:0 7px 20px rgba(25,42,47,.11) !important;
+  color:#fff !important;
+  font-size:clamp(1.16rem,2.25vw,1.46rem) !important;
+  font-weight:800 !important;
+  line-height:1.48 !important;
+  letter-spacing:-.025em !important;
+  text-align:left !important;
+  word-break:keep-all; overflow-wrap:break-word;
+  text-shadow:none !important;
+  scroll-margin-top:82px;
+}
+html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/crown-symbol"],
+  [href="https://4th-season.com/uniform-symbol"],
+  [href="https://4th-season.com/price-tag-symbol"],
+  [href="https://4th-season.com/fence-symbol"],
+  [href="https://4th-season.com/bouquet-symbol"],
+  [href="https://4th-season.com/house-symbol"],
+  [href="https://4th-season.com/seniority"],
+  [href="https://4th-season.com/symbolic-capital"],
+  [href="https://4th-season.com/id-card-symbol"],
+  [href="https://4th-season.com/construction-site-symbol"],
+  [href="https://4th-season.com/dam-river"],
+  [href="https://4th-season.com/ominous-sign"],
+  [href="https://4th-season.com/luck-charm"],
+  [href="https://4th-season.com/taboo"],
+  [href="https://4th-season.com/key-symbol"],
+  [href="https://4th-season.com/candle-symbol"],
+  [href="https://4th-season.com/pele-curse"],
+  [href="https://4th-season.com/pharaoh-tutankhamun-curse"],
+  [href="https://4th-season.com/kennedy-curse"],
+  [href="https://4th-season.com/tecumseh-curse"],
+  [href="https://4th-season.com/hope-diamond-curse"],
+  [href="https://4th-season.com/koh-i-noor-curse"],
+  [href="https://4th-season.com/baskerville-curse"],
+  [href="https://4th-season.com/mummy-curse"],
+  [href="https://4th-season.com/snake"],
+  [href="https://4th-season.com/water"],
+  [href="https://4th-season.com/closed-door-symbol"],
+  [href="https://4th-season.com/what-is-jinx"],
+  [href="https://4th-season.com/hydrangea-symbol"],
+  [href="https://4th-season.com/map-line-symbol"],
+  [href="https://4th-season.com/red-symbol"],
+  [href="https://4th-season.com/moon-symbol"],
+  [href="https://4th-season.com/lily-symbol"],
+  [href="https://4th-season.com/apartment-symbol"],
+  [href="https://4th-season.com/mirror-symbol"],
+  [href="https://4th-season.com/sunflower-symbol"],
+  [href="https://4th-season.com/threshold-symbol"],
+  [href="https://4th-season.com/black-cat-jinx"],
+  [href="https://4th-season.com/black-symbol"],
+  [href="https://4th-season.com/chrysanthemum-symbol"],
+  [href="https://4th-season.com/knot-symbol"],
+  [href="https://4th-season.com/number-13-jinx"],
+  [href="https://4th-season.com/white-symbol"],
+  [href="https://4th-season.com/tulip-symbol"],
+  [href="https://4th-season.com/washing-ritual-symbol"],
+  [href="https://4th-season.com/tree-symbol"],
+  [href="https://4th-season.com/peony-symbol"],
+  [href="https://4th-season.com/marriage-custom-symbol"],
+  [href="https://4th-season.com/diamond-symbol"],
+  [href="https://4th-season.com/lavender-symbol"],
+  [href="https://4th-season.com/number-13-symbol"],
+  [href="https://4th-season.com/bird-cage-symbol"],
+  [href="https://4th-season.com/fish-aquarium-symbol"],
+  [href="https://4th-season.com/check-mark-symbol"],
+  [href="https://4th-season.com/salt-jinx"],
+  [href="https://4th-season.com/cherry-blossom-symbol"],
+  [href="https://4th-season.com/mask-ritual-symbol"],
+  [href="https://4th-season.com/rainbow-symbol"],
+  [href="https://4th-season.com/location-pin-symbol"],
+  [href="https://4th-season.com/four-leaf-clover-jinx"],
+  [href="https://4th-season.com/iris-flower-symbol"],
+  [href="https://4th-season.com/bridge-symbol"],
+  [href="https://4th-season.com/lightning-symbol"],
+  [href="https://4th-season.com/lotus-flower-symbol"],
+  [href="https://4th-season.com/bell-ritual-symbol"]
+)) main h2 :is(a,strong,em,span) { color:inherit !important; }
+@media(max-width:600px){ html:has(head link[rel="canonical"]:is(
+  [href="https://4th-season.com/crown-symbol"],
+  [href="https://4th-season.com/uniform-symbol"],
+  [href="https://4th-season.com/price-tag-symbol"],
+  [href="https://4th-season.com/fence-symbol"],
+  [href="https://4th-season.com/bouquet-symbol"],
+  [href="https://4th-season.com/house-symbol"],
+  [href="https://4th-season.com/seniority"],
+  [href="https://4th-season.com/symbolic-capital"],
+  [href="https://4th-season.com/id-card-symbol"],
+  [href="https://4th-season.com/construction-site-symbol"],
+  [href="https://4th-season.com/dam-river"],
+  [href="https://4th-season.com/ominous-sign"],
+  [href="https://4th-season.com/luck-charm"],
+  [href="https://4th-season.com/taboo"],
+  [href="https://4th-season.com/key-symbol"],
+  [href="https://4th-season.com/candle-symbol"],
+  [href="https://4th-season.com/pele-curse"],
+  [href="https://4th-season.com/pharaoh-tutankhamun-curse"],
+  [href="https://4th-season.com/kennedy-curse"],
+  [href="https://4th-season.com/tecumseh-curse"],
+  [href="https://4th-season.com/hope-diamond-curse"],
+  [href="https://4th-season.com/koh-i-noor-curse"],
+  [href="https://4th-season.com/baskerville-curse"],
+  [href="https://4th-season.com/mummy-curse"],
+  [href="https://4th-season.com/snake"],
+  [href="https://4th-season.com/water"],
+  [href="https://4th-season.com/closed-door-symbol"],
+  [href="https://4th-season.com/what-is-jinx"],
+  [href="https://4th-season.com/hydrangea-symbol"],
+  [href="https://4th-season.com/map-line-symbol"],
+  [href="https://4th-season.com/red-symbol"],
+  [href="https://4th-season.com/moon-symbol"],
+  [href="https://4th-season.com/lily-symbol"],
+  [href="https://4th-season.com/apartment-symbol"],
+  [href="https://4th-season.com/mirror-symbol"],
+  [href="https://4th-season.com/sunflower-symbol"],
+  [href="https://4th-season.com/threshold-symbol"],
+  [href="https://4th-season.com/black-cat-jinx"],
+  [href="https://4th-season.com/black-symbol"],
+  [href="https://4th-season.com/chrysanthemum-symbol"],
+  [href="https://4th-season.com/knot-symbol"],
+  [href="https://4th-season.com/number-13-jinx"],
+  [href="https://4th-season.com/white-symbol"],
+  [href="https://4th-season.com/tulip-symbol"],
+  [href="https://4th-season.com/washing-ritual-symbol"],
+  [href="https://4th-season.com/tree-symbol"],
+  [href="https://4th-season.com/peony-symbol"],
+  [href="https://4th-season.com/marriage-custom-symbol"],
+  [href="https://4th-season.com/diamond-symbol"],
+  [href="https://4th-season.com/lavender-symbol"],
+  [href="https://4th-season.com/number-13-symbol"],
+  [href="https://4th-season.com/bird-cage-symbol"],
+  [href="https://4th-season.com/fish-aquarium-symbol"],
+  [href="https://4th-season.com/check-mark-symbol"],
+  [href="https://4th-season.com/salt-jinx"],
+  [href="https://4th-season.com/cherry-blossom-symbol"],
+  [href="https://4th-season.com/mask-ritual-symbol"],
+  [href="https://4th-season.com/rainbow-symbol"],
+  [href="https://4th-season.com/location-pin-symbol"],
+  [href="https://4th-season.com/four-leaf-clover-jinx"],
+  [href="https://4th-season.com/iris-flower-symbol"],
+  [href="https://4th-season.com/bridge-symbol"],
+  [href="https://4th-season.com/lightning-symbol"],
+  [href="https://4th-season.com/lotus-flower-symbol"],
+  [href="https://4th-season.com/bell-ritual-symbol"]
+)) main h2 {
+  padding:.88rem 1.0rem !important;
+  border-left-width:5px !important;
+  border-radius:11px !important;
+  margin:1.9rem 0 .95rem !important;
+  font-size:clamp(1.08rem,4.6vw,1.32rem) !important;
+} }

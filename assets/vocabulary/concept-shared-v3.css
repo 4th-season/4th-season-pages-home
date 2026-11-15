@@ -1,0 +1,73 @@
+/* CONCEPT_VOCAB_SHARED_CSS_V3_20261022
+   Scope: 4th-season LEARN > Vocabulary > Concept
+   9 legacy 5-SET markup families; shared presentation and small-screen behavior.
+   This unlayered stylesheet intentionally takes precedence over the per-DAY
+   inline <style> for the shared card/set surface only. Do not remove
+   historical per-DAY CSS until each family has completed rollout QA.
+*/
+body.cv-unified {
+  --cv-ink: #17302b;
+  --cv-muted: #58736b;
+  --cv-line: #d9e7e1;
+  --cv-accent: #126b5c;
+  --cv-soft: #f5faf7;
+  --cv-paper: #fff;
+  --cv-shadow: 0 5px 18px rgba(28, 74, 63, .055);
+  overflow-wrap: break-word;
+}
+body.cv-unified :is(.day-set,.set) {
+  min-width: 0;
+  scroll-margin-top: 5rem;
+}
+body.cv-unified :is(.setheading,.set-heading,.set-head,.set-title,.setheader) {
+  letter-spacing: -.025em;
+  line-height: 1.35;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+}
+body.cv-unified .word-card {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--cv-line);
+  border-radius: 16px;
+  background: var(--cv-paper);
+  box-shadow: var(--cv-shadow);
+  overflow-wrap: anywhere;
+}
+body.cv-unified .word-card :is(h3,.word-title) {
+  line-height: 1.4;
+  letter-spacing: -.025em;
+  text-wrap: pretty;
+  overflow-wrap: anywhere;
+}
+body.cv-unified .word-card :is(.hanja,.hanja-text) {
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+body.cv-unified .word-card :is(.meaning-row,.definition,.context,.example,.reconstruct,.exam-box,.quote,.source,.reading,.reading-tip,.tip) {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+body.cv-unified .word-card :is(a,button,input,select):focus-visible {
+  outline: 3px solid var(--cv-accent);
+  outline-offset: 3px;
+}
+@media (max-width:720px) {
+  body.cv-unified .word-card {border-radius: 12px;}
+  body.cv-unified :is(.setheading,.set-heading,.set-head,.set-title,.setheader) {
+    word-break: keep-all;
+    text-wrap: wrap;
+  }
+  body.cv-unified .word-card :is(h3,.word-title) {
+    font-size: clamp(1.05rem,4.6vw,1.5rem);
+    word-break: keep-all;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  body.cv-unified :is(.day-set,.set,.word-card) {
+    transition: none;
+    scroll-behavior: auto;
+  }
+}

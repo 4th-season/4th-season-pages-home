@@ -1,0 +1,158 @@
+/*
+ * Re:Sign ARTICLE unified layout — editorial specification, 2026-10-25
+ * Application class: <main class="rs-rb rs-rb--unified">
+ * Scope is deliberately narrow. This file is NOT yet published to production.
+ * Before publication, append/review against deployed /assets/css/resign/resign-article-rebuild-v1.css
+ * and deploy through SITEJOB CLEAN-v1 only. Do not modify legacy articles implicitly.
+ */
+.rs-rb.rs-rb--unified {
+  --rs-ink:#233b35;
+  --rs-green:#215c4f;
+  --rs-green-deep:#174a40;
+  --rs-green-light:#e7f4ed;
+  --rs-green-border:#c9e3d6;
+  --rs-muted:#596e67;
+  --rs-paper:#fff;
+  --rs-line:#dbe6df;
+  width:min(100% - 32px, 940px);
+  margin:0 auto;
+  color:var(--rs-ink);
+  font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  font-size:16px;
+  line-height:1.9;
+  word-break:keep-all;
+  overflow-wrap:anywhere;
+}
+.rs-rb.rs-rb--unified *,
+.rs-rb.rs-rb--unified *::before,
+.rs-rb.rs-rb--unified *::after {box-sizing:border-box}
+.rs-rb.rs-rb--unified :where(img){max-width:100%}
+.rs-rb.rs-rb--unified :where(a){color:var(--rs-green-deep);text-underline-offset:3px}
+.rs-rb.rs-rb--unified :where(a:focus-visible){outline:3px solid #79bf9a;outline-offset:4px;border-radius:3px}
+.rs-rb.rs-rb--unified .rs-rb__intro {
+  margin:24px 0 22px;
+  padding:42px 46px 40px;
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:22px;
+  background:linear-gradient(140deg,#24464e 0%,#457479 68%,#737b6b 100%);
+  color:#fff;
+  box-shadow:0 14px 30px rgba(29,59,67,.10);
+}
+.rs-rb.rs-rb--unified .rs-rb__kicker {
+  margin:0 0 8px;
+  color:#e2f2f0;
+  font-size:.79rem;
+  font-weight:800;
+  letter-spacing:.095em;
+}
+.rs-rb.rs-rb--unified .rs-rb__intro h1 {
+  margin:0 0 14px;
+  color:#fff;
+  font-size:clamp(1.68rem,3.8vw,2.55rem);
+  line-height:1.38;
+  letter-spacing:-.035em;
+  font-weight:800;
+}
+.rs-rb.rs-rb--unified .rs-rb__lead {
+  margin:0 0 12px;
+  font-size:clamp(1.02rem,1.7vw,1.16rem);
+  line-height:1.8;
+  color:#f5faf9;
+  font-weight:600;
+}
+.rs-rb.rs-rb--unified .rs-rb__intro p{color:#fff}
+.rs-rb.rs-rb--unified .rs-rb__intro p:last-child{margin-bottom:0}
+.rs-rb.rs-rb--unified .rs-rb__question {
+  margin:16px 0 0;
+  padding:12px 16px;
+  border-left:3px solid #65a781;
+  background:rgba(255,255,255,.10);
+  border-radius:0 8px 8px 0;
+  color:#fff;
+  font-weight:650;
+}
+/* New default COVER: real-looking newly generated imagery, 16:9, never stretched to 3:1. */
+.rs-rb.rs-rb--unified .rs-rb__cover {
+  display:block;position:relative;width:100%;height:auto;aspect-ratio:auto;margin:0 0 25px;overflow:hidden;
+  border:1px solid var(--rs-line);border-radius:17px;background:#f0f4f1;
+}
+.rs-rb.rs-rb--unified .rs-rb__cover img {
+  display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;
+}
+.rs-rb.rs-rb--unified .rs-rb__cover figcaption,
+.rs-rb.rs-rb--unified .rs-rb__scene figcaption,
+.rs-rb.rs-rb--unified .rs-rb__evidence figcaption {
+  display:block;position:static;width:auto;height:auto;overflow:visible;clip-path:none;white-space:normal;
+  padding:10px 14px 12px;font-size:.87rem;line-height:1.65;color:var(--rs-muted);
+}
+/* Desktop two-column TOC / mobile one-column TOC */
+.rs-rb.rs-rb--unified .rs-rb__toc {
+  margin:0 0 38px;padding:23px 27px 22px;
+  background:#f7fbf8;border:1px solid var(--rs-line);border-radius:16px;
+}
+.rs-rb.rs-rb--unified .rs-rb__toc > strong{
+  display:block;margin:0 0 14px;color:var(--rs-green-deep);font-size:1.05rem;
+}
+.rs-rb.rs-rb--unified .rs-rb__toc ol {
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));
+  column-gap:28px;row-gap:10px;margin:0;padding:0;list-style:none;
+  counter-reset:rs-toc;
+}
+.rs-rb.rs-rb--unified .rs-rb__toc li{
+  margin:0;min-width:0;counter-increment:rs-toc;
+  display:grid;grid-template-columns:2rem minmax(0,1fr);gap:5px;
+  align-items:start;font-size:.96rem;line-height:1.6;
+}
+.rs-rb.rs-rb--unified .rs-rb__toc li::before{
+  content:counter(rs-toc,decimal-leading-zero);font-size:.78rem;
+  color:var(--rs-green);font-weight:750;padding-top:2px;
+}
+.rs-rb.rs-rb--unified .rs-rb__toc a{text-decoration:none}
+.rs-rb.rs-rb--unified .rs-rb__toc a:hover{text-decoration:underline}
+.rs-rb.rs-rb--unified .rs-rb__article{margin:0}
+.rs-rb.rs-rb--unified .rs-rb__unit{margin:0 0 54px;scroll-margin-top:30px}
+.rs-rb.rs-rb--unified .rs-rb__unit > h2 {
+  margin:0 0 16px;color:var(--rs-green-deep);
+  font-size:clamp(1.34rem,2.3vw,1.69rem);line-height:1.5;letter-spacing:-.025em;
+}
+.rs-rb.rs-rb--unified .rs-rb__unit > h2::before{
+  content:"";display:block;width:37px;height:4px;background:#86b99f;
+  margin-bottom:12px;border-radius:4px;
+}
+.rs-rb.rs-rb--unified .rs-rb__unit :where(h3){margin:26px 0 10px;font-size:1.12rem;line-height:1.65}
+.rs-rb.rs-rb--unified .rs-rb__unit :where(p){margin:0 0 16px}
+.rs-rb.rs-rb--unified .rs-rb__scene,
+.rs-rb.rs-rb--unified .rs-rb__evidence {
+  margin:16px 0 27px;border:1px solid var(--rs-line);
+  border-radius:15px;background:#fafcfb;overflow:hidden;
+}
+/* One newly generated photoreal scene immediately after EACH of the eight body H2s */
+.rs-rb.rs-rb--unified .rs-rb__scene > img{
+  display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;
+}
+/* Additional real-object / museum / documentary evidence, independently verified */
+.rs-rb.rs-rb--unified .rs-rb__evidence{
+  max-width:760px;background:#fff;margin-top:20px;
+}
+.rs-rb.rs-rb--unified .rs-rb__evidence > img{
+  display:block;width:100%;height:auto;max-height:540px;object-fit:contain;background:#f5f7f5;
+}
+.rs-rb.rs-rb--unified .rs-rb__evidence figcaption {
+  background:#f6faf8;border-top:1px solid var(--rs-line);
+}
+.rs-rb.rs-rb--unified .rs-rb__evidence .rs-rb__source{
+  display:block;margin-top:3px;color:#527068;font-size:.8rem;
+}
+.rs-rb.rs-rb--unified .rs-rb__preserved{scroll-margin-top:25px}
+.rs-rb.rs-rb--unified .rs-rb__sources,
+.rs-rb.rs-rb--unified .rs-rb__related{border-top:1px solid var(--rs-line);padding-top:23px;margin-top:40px}
+.rs-rb.rs-rb--unified .rs-rb__sources :where(ul,ol),
+.rs-rb.rs-rb--unified .rs-rb__related :where(ul,ol){padding-left:22px}
+@media(max-width:720px){
+ .rs-rb.rs-rb--unified{width:min(100% - 28px, 940px);font-size:15.5px}
+ .rs-rb.rs-rb--unified .rs-rb__intro{padding:28px 22px 27px;border-radius:15px;margin-top:14px}
+ .rs-rb.rs-rb--unified .rs-rb__toc{padding:20px 19px}
+ .rs-rb.rs-rb--unified .rs-rb__toc ol{grid-template-columns:minmax(0,1fr);row-gap:12px}
+ .rs-rb.rs-rb--unified .rs-rb__unit{margin-bottom:39px}
+}
+@media(prefers-reduced-motion:reduce){.rs-rb.rs-rb--unified *{scroll-behavior:auto!important}}

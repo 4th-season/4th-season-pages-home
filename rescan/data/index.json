@@ -1,0 +1,471 @@
+{
+  "schemaVersion": "1.6.0",
+  "series": "[나 체크리스트]",
+  "section": "Re:Scan",
+  "updatedAt": "2026-08-04",
+  "items": [
+    {
+      "id": "stress",
+      "title": "지각된 스트레스",
+      "subtitle": "긴장과 회복 저하 신호 자가점검",
+      "grade": "A",
+      "mode": "scored",
+      "category": "정서",
+      "status": "published",
+      "keywords": [
+        "스트레스",
+        "긴장",
+        "회복",
+        "피로"
+      ],
+      "dataPath": "/rescan/data/checklists/stress-placeholder.json",
+      "articlePath": "/rescan/tistory/stress.html"
+    },
+    {
+      "id": "burnout",
+      "title": "번아웃",
+      "subtitle": "소진이 반복되는 생활 패턴 자가점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "일·학습",
+      "status": "published",
+      "keywords": [
+        "번아웃",
+        "소진",
+        "업무",
+        "공부",
+        "회복"
+      ],
+      "dataPath": "/rescan/data/checklists/burnout-pattern.json",
+      "articlePath": "/rescan/tistory/burnout.html"
+    },
+    {
+      "id": "sleep-hygiene",
+      "title": "수면위생",
+      "subtitle": "잠의 질과 생활 리듬 자가점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "생활",
+      "status": "published",
+      "keywords": [
+        "수면",
+        "잠",
+        "생활리듬",
+        "피로",
+        "기상"
+      ],
+      "dataPath": "/rescan/data/checklists/sleep-hygiene-guide.json",
+      "articlePath": "/rescan/tistory/sleep-hygiene.html"
+    },
+    {
+      "id": "self-esteem",
+      "title": "자기존중감",
+      "subtitle": "나를 바라보는 기준과 자기평가 습관 자가점검",
+      "grade": "A",
+      "mode": "scored",
+      "category": "자기관계",
+      "status": "published",
+      "keywords": [
+        "자기존중감",
+        "자존감",
+        "자기평가",
+        "비교",
+        "자기돌봄"
+      ],
+      "dataPath": "/rescan/data/checklists/self-esteem.json",
+      "articlePath": "/rescan/tistory/self-esteem.html"
+    },
+    {
+      "id": "rumination",
+      "title": "반추사고",
+      "subtitle": "같은 생각이 반복되어 생활 회복을 방해하는 패턴 자가점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "사고",
+      "status": "published",
+      "keywords": [
+        "반추",
+        "생각반복",
+        "걱정",
+        "후회",
+        "집중"
+      ],
+      "dataPath": "/rescan/data/checklists/rumination.json",
+      "articlePath": "/rescan/tistory/rumination.html"
+    },
+    {
+      "id": "relationship-boundaries",
+      "title": "관계경계",
+      "subtitle": "부탁과 배려 사이에서 나의 경계를 살펴보는 자가점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "관계",
+      "status": "published",
+      "keywords": [
+        "관계경계",
+        "거절",
+        "부탁",
+        "책임",
+        "감정",
+        "관계피로"
+      ],
+      "dataPath": "/rescan/data/checklists/relationship-boundaries.json",
+      "articlePath": "/rescan/tistory/relationship-boundaries.html"
+    },
+    {
+      "id": "emotion-regulation",
+      "title": "감정조절",
+      "subtitle": "감정을 알아차리고 다루는 방식 자가점검",
+      "grade": "A",
+      "mode": "scored",
+      "category": "정서",
+      "status": "published",
+      "keywords": [
+        "감정조절",
+        "감정인식",
+        "충동",
+        "회복"
+      ],
+      "dataPath": "/rescan/data/checklists/emotion-regulation.json",
+      "articlePath": "/rescan/tistory/emotion-regulation.html"
+    },
+    {
+      "id": "anxiety-signals",
+      "title": "불안 신호",
+      "subtitle": "걱정과 긴장이 생활에 미치는 영향 자가점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "정서",
+      "status": "published",
+      "keywords": [
+        "불안",
+        "걱정",
+        "긴장",
+        "회피",
+        "집중"
+      ],
+      "dataPath": "/rescan/data/checklists/anxiety-signals.json",
+      "articlePath": "/rescan/tistory/anxiety-signals.html"
+    },
+    {
+      "id": "depressive-signals",
+      "title": "우울 신호",
+      "subtitle": "의욕과 흥미, 생활 변화 자가점검",
+      "grade": "B",
+      "mode": "guide",
+      "category": "정서",
+      "status": "published",
+      "keywords": [
+        "우울",
+        "의욕",
+        "흥미",
+        "피로",
+        "생활변화"
+      ],
+      "dataPath": "/rescan/data/checklists/depressive-signals.json",
+      "articlePath": "/rescan/tistory/depressive-signals.html"
+    },
+    {
+      "id": "anger-regulation",
+      "title": "분노조절",
+      "subtitle": "화가 커지는 장면과 표현 방식 자가점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "정서",
+      "status": "published",
+      "keywords": [
+        "분노",
+        "화",
+        "충동",
+        "관계",
+        "회복"
+      ],
+      "dataPath": "/rescan/data/checklists/anger-regulation.json",
+      "articlePath": "/rescan/tistory/anger-regulation.html"
+    },
+    {
+      "id": "emotional-expression",
+      "title": "감정표현",
+      "subtitle": "내 감정을 알아차리고 말로 전하는 방식 자가점검",
+      "grade": "A",
+      "mode": "scored",
+      "category": "관계",
+      "status": "published",
+      "keywords": [
+        "감정표현",
+        "의사소통",
+        "도움요청",
+        "공감"
+      ],
+      "dataPath": "/rescan/data/checklists/emotional-expression.json",
+      "articlePath": "/rescan/tistory/emotional-expression.html"
+    },
+    {
+      "id": "social-connectedness",
+      "title": "사회적 연결감",
+      "subtitle": "연락 가능한 관계·소속감·일상 공유·재연결 자원을 살펴보는 성찰형 점검",
+      "grade": "B",
+      "mode": "reflection",
+      "category": "관계",
+      "status": "published",
+      "keywords": [
+        "사회적연결감",
+        "외로움",
+        "사회적고립",
+        "소속감",
+        "일상공유",
+        "재연결"
+      ],
+      "dataPath": "/rescan/data/checklists/social-connectedness.json",
+      "articlePath": "/rescan/tistory/social-connectedness.html"
+    },
+    {
+      "id": "assertiveness",
+      "title": "자기주장",
+      "subtitle": "의견·부탁·거절·반대 의견을 존중하며 분명하게 표현하는 패턴 점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "관계",
+      "status": "published",
+      "keywords": [
+        "자기주장",
+        "의견표현",
+        "부탁",
+        "거절",
+        "반대의견",
+        "의사소통"
+      ],
+      "dataPath": "/rescan/data/checklists/assertiveness.json",
+      "articlePath": "/rescan/tistory/assertiveness.html"
+    },
+    {
+      "id": "conflict-coping",
+      "title": "갈등 대처",
+      "subtitle": "회피·격화·확인·조정과 회복으로 이어지는 관계 반응 점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "관계",
+      "status": "published",
+      "keywords": [
+        "갈등대처",
+        "회피",
+        "방어",
+        "사실감정요구",
+        "조정",
+        "관계회복"
+      ],
+      "dataPath": "/rescan/data/checklists/conflict-coping.json",
+      "articlePath": "/rescan/tistory/conflict-coping.html"
+    },
+    {
+      "id": "relationship-reciprocity",
+      "title": "관계 상호성",
+      "subtitle": "관심·책임·결정·조정이 한쪽으로만 흐르지 않는지 살펴보는 성찰형 점검",
+      "grade": "B",
+      "mode": "reflection",
+      "category": "관계",
+      "status": "published",
+      "keywords": [
+        "관계상호성",
+        "주고받음",
+        "책임",
+        "돌봄",
+        "공동결정",
+        "관계불균형"
+      ],
+      "dataPath": "/rescan/data/checklists/relationship-reciprocity.json",
+      "articlePath": "/rescan/tistory/relationship-reciprocity.html"
+    },
+    {
+      "id": "support-resources",
+      "title": "지지 자원과 도움 요청",
+      "subtitle": "지원 경로·요청 구체화·도움 활용·요청 장벽을 살펴보는 성찰형 점검",
+      "grade": "B",
+      "mode": "reflection",
+      "category": "관계",
+      "status": "published",
+      "keywords": [
+        "사회적지지",
+        "도움요청",
+        "지원기관",
+        "민폐감",
+        "도움받기",
+        "지원활용"
+      ],
+      "dataPath": "/rescan/data/checklists/support-resources.json",
+      "articlePath": "/rescan/tistory/support-resources.html"
+    },
+    {
+      "id": "self-efficacy",
+      "title": "자기효능감",
+      "subtitle": "과제를 시작하고 해결하며 다시 시도할 수 있다는 믿음 자가점검",
+      "grade": "A",
+      "mode": "scored",
+      "category": "자기이해",
+      "status": "published",
+      "keywords": [
+        "자기효능감",
+        "해낼수있다는믿음",
+        "문제해결",
+        "재시도",
+        "도움요청"
+      ],
+      "dataPath": "/rescan/data/checklists/self-efficacy.json",
+      "articlePath": "/rescan/tistory/self-efficacy.html"
+    },
+    {
+      "id": "perfectionism",
+      "title": "완벽주의",
+      "subtitle": "경직된 기준과 실수 두려움이 생활에 미치는 패턴 자가점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "자기이해",
+      "status": "published",
+      "keywords": [
+        "완벽주의",
+        "경직된기준",
+        "실수두려움",
+        "미루기",
+        "결과불만족"
+      ],
+      "dataPath": "/rescan/data/checklists/perfectionism.json",
+      "articlePath": "/rescan/tistory/perfectionism.html"
+    },
+    {
+      "id": "self-criticism",
+      "title": "자기비난",
+      "subtitle": "실수 뒤 자신을 공격하고 몰아붙이는 말과 회복 방식 자가점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "자기이해",
+      "status": "published",
+      "keywords": [
+        "자기비난",
+        "자책",
+        "자기처벌",
+        "내면의말",
+        "실수",
+        "회복"
+      ],
+      "dataPath": "/rescan/data/checklists/self-criticism.json",
+      "articlePath": "/rescan/tistory/self-criticism.html"
+    },
+    {
+      "id": "resilience",
+      "title": "회복탄력성",
+      "subtitle": "어려움 뒤 감정과 생활을 추스르고 다시 움직이는 과정 자가점검",
+      "grade": "A",
+      "mode": "scored",
+      "category": "자기이해",
+      "status": "published",
+      "keywords": [
+        "회복탄력성",
+        "감정회복",
+        "유연한대응",
+        "도움요청",
+        "생활복귀"
+      ],
+      "dataPath": "/rescan/data/checklists/resilience.json",
+      "articlePath": "/rescan/tistory/resilience.html"
+    },
+    {
+      "id": "life-satisfaction",
+      "title": "삶의 만족도",
+      "subtitle": "생활 만족과 삶의 방향을 네 영역으로 살펴보는 성찰형 점검",
+      "grade": "A",
+      "mode": "reflection",
+      "category": "자기이해",
+      "status": "published",
+      "keywords": [
+        "삶의만족도",
+        "생활만족",
+        "삶의방향",
+        "생활안정",
+        "소속감",
+        "역할",
+        "의미"
+      ],
+      "dataPath": "/rescan/data/checklists/life-satisfaction.json",
+      "articlePath": "/rescan/tistory/life-satisfaction.html"
+    },
+    {
+      "id": "execution-reentry",
+      "title": "실행 지연과 다시 시작",
+      "subtitle": "해야 할 일을 시작하고 미룬 뒤 다시 돌아오는 생활 패턴 점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "생활",
+      "status": "published",
+      "keywords": [
+        "실행지연",
+        "미루기",
+        "시작",
+        "마감",
+        "다시시작",
+        "재진입"
+      ],
+      "dataPath": "/rescan/data/checklists/execution-reentry.json",
+      "articlePath": "/rescan/tistory/execution-reentry.html"
+    },
+    {
+      "id": "role-overload",
+      "title": "역할 과부하와 책임 조정",
+      "subtitle": "일·학업·가사·돌봄 책임이 겹칠 때 부담과 조정 가능성 점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "생활",
+      "status": "published",
+      "keywords": [
+        "역할과부하",
+        "책임",
+        "돌봄",
+        "가사",
+        "업무",
+        "위임",
+        "회복"
+      ],
+      "dataPath": "/rescan/data/checklists/role-overload.json",
+      "articlePath": "/rescan/tistory/role-overload.html"
+    },
+    {
+      "id": "digital-recovery",
+      "title": "디지털 사용과 회복",
+      "subtitle": "휴대전화·영상·검색이 수면·집중·휴식에 미치는 생활 패턴 점검",
+      "grade": "B",
+      "mode": "pattern",
+      "category": "생활",
+      "status": "published",
+      "keywords": [
+        "디지털사용",
+        "휴대전화",
+        "스마트폰",
+        "수면",
+        "집중",
+        "회복",
+        "알림"
+      ],
+      "dataPath": "/rescan/data/checklists/digital-recovery.json",
+      "articlePath": "/rescan/tistory/digital-recovery.html"
+    },
+    {
+      "id": "transition-adjustment",
+      "title": "변화기 생활 적응",
+      "subtitle": "이직·퇴직·진학·이사·관계 변화 뒤 생활을 다시 구성하는 성찰형 점검",
+      "grade": "B",
+      "mode": "reflection",
+      "category": "자기이해",
+      "status": "published",
+      "keywords": [
+        "변화기",
+        "생활적응",
+        "이직",
+        "퇴직",
+        "진학",
+        "이사",
+        "역할변화"
+      ],
+      "dataPath": "/rescan/data/checklists/transition-adjustment.json",
+      "articlePath": "/rescan/tistory/transition-adjustment.html"
+    }
+  ]
+}

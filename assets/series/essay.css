@@ -1,0 +1,520 @@
+/* LIFE-ESSAY-BROWN-PAPER-v2
+   생활의 기록 공통 CSS
+   원칙: 본문 내용/문장/문단 순서 수정 없이 표현만 담당
+*/
+:root{
+  --essay-bg:#eee4d5;
+  --essay-paper:#f8f1e7;
+  --essay-paper-strong:#fbf6ee;
+  --essay-line:rgba(124,93,66,.13);
+  --essay-margin-line:rgba(157,103,78,.18);
+  --essay-border:#d9c7b3;
+  --essay-border-soft:#e8dccd;
+  --essay-ink:#493a31;
+  --essay-ink-soft:#67564a;
+  --essay-heading:#3a2b24;
+  --essay-accent:#8b684d;
+  --essay-accent-deep:#6f503b;
+  --essay-accent-soft:#eadcc9;
+  --essay-note:#f1e5d6;
+  --essay-shadow:rgba(78,57,42,.10);
+  --essay-link:#77563e;
+}
+
+/* 전체 편지지/노트 바탕 */
+html{
+  background:var(--essay-bg);
+}
+
+body{
+  margin:0;
+  color:var(--essay-ink);
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 56px,
+      var(--essay-margin-line) 56px,
+      var(--essay-margin-line) 57px,
+      transparent 57px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,.22) 0,
+      rgba(255,255,255,.22) 33px,
+      var(--essay-line) 33px,
+      var(--essay-line) 34px
+    ),
+    linear-gradient(180deg,#f2e9dc 0%,#ece0d0 100%);
+  font-family:
+    "Noto Serif KR",
+    "Nanum Myeongjo",
+    "Apple SD Gothic Neo",
+    "Malgun Gothic",
+    serif;
+  font-size:19px;
+  line-height:1.95;
+  letter-spacing:.005em;
+  word-break:keep-all;
+  overflow-wrap:break-word;
+}
+
+/* 읽기 영역 */
+main,
+article,
+.entry-content,
+.contents_style,
+.article-content,
+.article-body,
+.post-content{
+  color:var(--essay-ink);
+}
+
+main{
+  width:min(900px,calc(100% - 40px));
+  margin:34px auto 76px;
+  padding:42px 46px 64px;
+  background:rgba(248,241,231,.94);
+  border:1px solid var(--essay-border-soft);
+  border-radius:10px;
+  box-shadow:
+    0 18px 48px var(--essay-shadow),
+    inset 0 1px 0 rgba(255,255,255,.7);
+}
+
+/* 제목 */
+h1{
+  margin:0 0 30px;
+  color:var(--essay-heading);
+  font-size:clamp(2.15rem,5.1vw,3.6rem);
+  line-height:1.28;
+  letter-spacing:-.035em;
+  font-weight:800;
+}
+
+h1::after{
+  content:"";
+  display:block;
+  width:74px;
+  height:2px;
+  margin-top:20px;
+  background:linear-gradient(
+    90deg,
+    var(--essay-accent-deep),
+    rgba(111,80,59,.15)
+  );
+}
+
+h2{
+  margin:2.35em 0 .85em;
+  padding:0 0 10px;
+  color:var(--essay-heading);
+  font-size:clamp(1.62rem,3.2vw,2.02rem);
+  line-height:1.45;
+  letter-spacing:-.025em;
+  border-bottom:1px solid var(--essay-border);
+}
+
+h3{
+  margin:1.95em 0 .7em;
+  color:var(--essay-accent-deep);
+  font-size:clamp(1.28rem,2.4vw,1.52rem);
+  line-height:1.5;
+  letter-spacing:-.015em;
+}
+
+/* 본문 글자를 기존보다 조금 크게 */
+p,
+li,
+dd,
+dt,
+td,
+th{
+  font-size:1.04rem;
+}
+
+p{
+  margin:0 0 1.38em;
+}
+
+ul,
+ol{
+  margin:1em 0 1.55em;
+  padding-left:1.6em;
+}
+
+li{
+  margin:.48em 0;
+}
+
+/* 인용/메모 */
+blockquote{
+  margin:1.65em 0;
+  padding:20px 22px;
+  color:var(--essay-ink-soft);
+  background:rgba(241,229,214,.88);
+  border-left:4px solid var(--essay-accent);
+  border-radius:0 9px 9px 0;
+}
+
+.note,
+.info-box,
+.highlight-box,
+.callout{
+  margin:1.55em 0;
+  padding:18px 20px;
+  background:rgba(241,229,214,.82);
+  border:1px solid var(--essay-border);
+  border-radius:10px;
+}
+
+/* 표 */
+table{
+  width:100%;
+  margin:1.6em 0;
+  border-collapse:collapse;
+  background:rgba(251,246,238,.78);
+  font-size:.97rem;
+}
+
+th,
+td{
+  padding:12px 14px;
+  text-align:left;
+  vertical-align:top;
+  border:1px solid var(--essay-border);
+}
+
+th{
+  color:var(--essay-heading);
+  background:var(--essay-accent-soft);
+}
+
+/* 이미지 */
+img{
+  max-width:100%;
+  height:auto;
+  border-radius:8px;
+}
+
+figure{
+  margin:1.8em auto;
+}
+
+figcaption{
+  margin-top:8px;
+  color:#78685c;
+  font-size:.86rem;
+  line-height:1.6;
+}
+
+/* 링크 */
+a{
+  color:var(--essay-link);
+  text-decoration-color:rgba(119,86,62,.35);
+  text-decoration-thickness:1px;
+  text-underline-offset:4px;
+}
+
+a:hover{
+  color:var(--essay-accent-deep);
+  text-decoration-color:currentColor;
+}
+
+/* 구분선 */
+hr{
+  margin:2.5em 0;
+  border:0;
+  border-top:1px solid var(--essay-border);
+}
+
+/* 메타/안내문 */
+.meta,
+.article-meta,
+.essay-meta,
+.intro,
+.lead,
+.article-description{
+  color:var(--essay-ink-soft);
+}
+
+/* 생활의 기록 대문 */
+.essay-hub-hero{
+  margin:-8px -8px 36px;
+  padding:38px 34px 36px;
+  color:var(--essay-heading);
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,.2) 0,
+      rgba(255,255,255,.2) 31px,
+      rgba(124,93,66,.08) 31px,
+      rgba(124,93,66,.08) 32px
+    ),
+    #efe1d0;
+  border:1px solid var(--essay-border);
+  border-radius:10px;
+}
+
+.essay-hub-hero h1{
+  margin-bottom:14px;
+}
+
+.essay-hub-hero h1::after{
+  margin-top:16px;
+}
+
+.essay-hub-hero p{
+  margin:0;
+  color:var(--essay-ink-soft);
+}
+
+.essay-hub-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+  margin-top:24px;
+}
+
+.essay-hub-card{
+  display:block;
+  padding:19px 20px;
+  color:var(--essay-ink);
+  text-decoration:none;
+  background:rgba(251,246,238,.9);
+  border:1px solid var(--essay-border);
+  border-radius:9px;
+  box-shadow:0 7px 18px rgba(78,57,42,.05);
+}
+
+.essay-hub-card:hover{
+  transform:translateY(-1px);
+  border-color:#c6ad93;
+}
+
+.essay-hub-card strong{
+  display:block;
+  margin-bottom:6px;
+  color:var(--essay-heading);
+  font-size:1.04rem;
+}
+
+.essay-hub-card span{
+  display:block;
+  color:var(--essay-ink-soft);
+  font-size:.9rem;
+  line-height:1.65;
+}
+
+/* 공통 메뉴는 시리즈 본문보다 조금 작게 */
+#fs-common-menu{
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    "Noto Sans KR",
+    sans-serif;
+  font-size:15px;
+}
+
+/* 모바일 */
+@media (max-width:760px){
+  body{
+    font-size:18px;
+    line-height:1.9;
+    background:
+      repeating-linear-gradient(
+        to bottom,
+        rgba(255,255,255,.20) 0,
+        rgba(255,255,255,.20) 31px,
+        var(--essay-line) 31px,
+        var(--essay-line) 32px
+      ),
+      linear-gradient(180deg,#f2e9dc 0%,#ece0d0 100%);
+  }
+
+  main{
+    width:min(100% - 22px,900px);
+    margin:16px auto 46px;
+    padding:28px 20px 46px;
+    border-radius:8px;
+  }
+
+  h1{
+    font-size:clamp(1.95rem,9vw,2.75rem);
+  }
+
+  h2{
+    font-size:clamp(1.45rem,6.5vw,1.78rem);
+  }
+
+  h3{
+    font-size:1.25rem;
+  }
+
+  p,
+  li,
+  dd,
+  dt,
+  td,
+  th{
+    font-size:1.02rem;
+  }
+
+  .essay-hub-hero{
+    padding:28px 22px;
+  }
+
+  .essay-hub-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+/* 작은 화면 */
+@media (max-width:420px){
+  body{
+    font-size:17px;
+  }
+
+  main{
+    width:calc(100% - 16px);
+    padding:24px 16px 40px;
+  }
+}
+
+
+/* =========================================================
+   기존 생활의 기록 ORIGINAL shell 호환
+   공통 CSS 링크가 기존 <style> 뒤에서 로드되므로 여기 값이 우선한다.
+   ========================================================= */
+body{
+  background:
+    linear-gradient(
+      90deg,
+      transparent 0,
+      transparent 56px,
+      var(--essay-margin-line) 56px,
+      var(--essay-margin-line) 57px,
+      transparent 57px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,.20) 0,
+      rgba(255,255,255,.20) 33px,
+      var(--essay-line) 33px,
+      var(--essay-line) 34px
+    ),
+    linear-gradient(180deg,#f2e9dc 0%,#ece0d0 100%);
+  color:var(--essay-ink);
+  font-family:"Noto Serif KR","Nanum Myeongjo","Apple SD Gothic Neo","Malgun Gothic",serif;
+  font-size:19px;
+  line-height:1.95;
+}
+
+.top{
+  background:rgba(248,241,231,.94);
+  border-bottom:1px solid var(--essay-border);
+  box-shadow:0 3px 16px rgba(78,57,42,.04);
+}
+
+.top a{
+  color:var(--essay-accent-deep);
+}
+
+.topin,
+.wrap{
+  width:min(900px,calc(100% - 40px));
+}
+
+main.wrap{
+  margin:34px auto 76px;
+  padding:42px 46px 64px;
+  background:rgba(248,241,231,.92);
+  border:1px solid var(--essay-border-soft);
+  border-radius:10px;
+  box-shadow:0 18px 48px var(--essay-shadow), inset 0 1px 0 rgba(255,255,255,.7);
+}
+
+.hero{
+  padding:28px 0 24px;
+}
+
+.hero h1{
+  color:var(--essay-heading);
+  font-size:clamp(2.15rem,5.1vw,3.6rem);
+  line-height:1.28;
+  letter-spacing:-.035em;
+}
+
+.date{
+  color:var(--essay-ink-soft);
+  font-size:.95rem;
+}
+
+.article{
+  background:rgba(251,246,238,.72);
+  border:1px solid var(--essay-border);
+  border-radius:8px;
+  padding:34px 36px;
+  box-shadow:0 8px 24px rgba(78,57,42,.055);
+  color:var(--essay-ink);
+}
+
+.article p,
+.article li{
+  font-size:1.04rem;
+  line-height:1.95;
+}
+
+.article h2{
+  color:var(--essay-heading);
+  font-size:clamp(1.62rem,3.2vw,2.02rem);
+  line-height:1.45;
+  border-bottom:1px solid var(--essay-border);
+  padding-bottom:10px;
+}
+
+.article h3{
+  color:var(--essay-accent-deep);
+  font-size:clamp(1.28rem,2.4vw,1.52rem);
+}
+
+.article blockquote{
+  color:var(--essay-ink-soft);
+  background:rgba(241,229,214,.88);
+  border-left:4px solid var(--essay-accent);
+}
+
+.back a{
+  color:var(--essay-accent-deep);
+  background:rgba(251,246,238,.9);
+  border-color:var(--essay-border);
+}
+
+@media(max-width:680px){
+  body{
+    font-size:18px;
+  }
+  .topin,
+  .wrap{
+    width:calc(100% - 22px);
+  }
+  main.wrap{
+    margin:16px auto 46px;
+    padding:28px 20px 46px;
+  }
+  .article{
+    padding:24px 20px;
+  }
+  .article p,
+  .article li{
+    font-size:1.02rem;
+  }
+}
+
+/* 4S SERIES IDENTITY V2 — ESSAY */
+.essay-hub-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,.7fr);column-gap:42px;align-items:start}
+.essay-hub-hero>h1,.essay-hub-hero>.essay-series-sub,.essay-hub-hero>p{grid-column:1}
+.essay-series-sub{margin:-.25rem 0 .7rem;color:#8a6048;font-size:clamp(1.05rem,1.6vw,1.32rem);font-weight:750;letter-spacing:-.03em}
+.essay-hub-hero::after{content:"";grid-column:2;grid-row:1/4;min-height:280px;border-radius:26px;background:radial-gradient(ellipse at 28% 28%,rgba(154,114,78,.28) 0 15%,transparent 15.5%),linear-gradient(135deg,transparent 0 42%,rgba(154,114,78,.18) 42% 45%,transparent 45%),#efe3d6;border:1px solid rgba(154,114,78,.16)}
+@media(max-width:760px){.essay-hub-hero{grid-template-columns:1fr}.essay-hub-hero::after{grid-column:1;grid-row:auto;min-height:175px;margin-top:22px}}

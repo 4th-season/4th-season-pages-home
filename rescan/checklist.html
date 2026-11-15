@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#8b6eb0">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="description" content="Re:Scan [나 체크리스트]에서 최근 생활의 신호와 반복 패턴을 점검합니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Re:Scan 체크리스트 | [나 체크리스트]">
+  <meta property="og:description" content="최근 생활의 신호와 반복 패턴을 살펴보는 자가점검입니다.">
+  <meta property="og:url" content="https://4th-season.com/rescan/checklist.html">
+  <meta property="og:image" content="https://4th-season.com/assets/map-note.png">
+  <link id="rescan-canonical" rel="canonical" href="https://4th-season.com/rescan/checklist.html">
+  <title>Re:Scan 체크리스트 | [나 체크리스트]</title>
+  <script>
+    (() => {
+      const id = new URLSearchParams(location.search).get('id');
+      if (!id) return;
+      const publicIds = new Set([
+        'stress','burnout','sleep-hygiene','self-esteem','rumination',
+        'relationship-boundaries','emotion-regulation','anxiety-signals',
+        'depressive-signals','anger-regulation','emotional-expression',
+        'social-connectedness','assertiveness','conflict-coping',
+        'relationship-reciprocity','support-resources','self-efficacy',
+        'perfectionism','self-criticism','resilience','life-satisfaction',
+        'execution-reentry','role-overload','digital-recovery',
+        'transition-adjustment'
+      ]);
+      if (!publicIds.has(id)) return;
+      const url = `https://4th-season.com/rescan/checklist.html?id=${encodeURIComponent(id)}`;
+      document.querySelector('#rescan-canonical')?.setAttribute('href', url);
+      document.querySelector('meta[property="og:url"]')?.setAttribute('content', url);
+    })();
+  </script>
+  <link rel="stylesheet" href="/rescan/assets/css/common.css">
+  <link rel="stylesheet" href="/rescan/assets/css/checklist.css">
+  <link rel="stylesheet" href="/rescan/assets/css/guidance.css?v=w13-20260804-2">
+<link id="s4-stdict-search-css" rel="stylesheet" href="/assets/common/stdict-search.css?v=20260927v1">
+</head>
+<body class="checklist-page">
+<div id="s4-stdict-search" class="s4-dict-search" data-endpoint="/api/stdict" aria-label="표준국어대사전 검색">
+<form class="s4-dict-form" role="search" autocomplete="off">
+<span class="s4-dict-badge">사전</span>
+<label class="s4-dict-sr" for="s4-dict-input">표준국어대사전 검색어</label>
+<input id="s4-dict-input" class="s4-dict-input" type="search" inputmode="search" maxlength="80" placeholder="표준국어대사전" aria-label="표준국어대사전 검색">
+<button class="s4-dict-submit" type="submit" aria-label="사전 검색">⌕</button>
+</form>
+<div class="s4-dict-panel" hidden aria-live="polite"></div>
+</div>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+  <header class="site-header"><div class="rs-container"><a class="brand" href="/rescan/" aria-label="Re:Scan 홈"><b>Re:</b>Scan <span>[나 체크리스트]</span></a><nav class="site-nav" aria-label="Re:Scan 주요 메뉴"><a href="/rescan/">Re:Scan</a><a href="/rescan/check/">최근 상태 지도</a><a href="/rescan/about.html">이용 안내</a></nav></div></header>
+  <main id="main" class="page-shell" tabindex="-1"><section class="content-section checklist-section" aria-labelledby="checklist-title"><div class="rs-container checklist-container"><div class="checklist-intro"><p class="eyebrow">CHECKLIST</p><h1 id="checklist-title">체크리스트 준비 중</h1><p id="checklist-description" class="lead">선택한 주제의 문항을 불러올 예정입니다.</p></div><noscript><div class="notice" role="alert">이 체크리스트는 문항 표시와 결과 계산을 위해 자바스크립트가 필요합니다. 브라우저 설정에서 자바스크립트를 허용한 뒤 다시 열어 주세요.</div></noscript><div id="checklist-app" class="panel" role="region" aria-labelledby="checklist-title" aria-describedby="checklist-description" aria-live="polite"></div></div></section></main>
+  <footer class="site-footer"><div class="rs-container"><span>Re:Scan | 개별 자가점검</span><a href="/rescan/check/">최근 상태 지도</a></div></footer>
+  <script src="/rescan/assets/js/scoring.js" defer></script>
+  <script src="/rescan/assets/js/guidance-engine.js" defer></script>
+  <script src="/rescan/assets/js/app.js" defer></script>
+  <script src="/rescan/assets/js/guidance-ui.js?v=w13-20260804-2&amp;w13fix=3" defer></script>
+  <script src="/rescan/assets/js/counselor-result.js" defer></script>
+<script id="s4-stdict-search-js" src="/assets/common/stdict-search.js?v=20260927v1" defer></script>
+</body>
+</html>

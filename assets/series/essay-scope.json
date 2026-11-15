@@ -1,0 +1,272 @@
+{
+  "schema": "4th-season.essay-scope/v1",
+  "updated": "2026-09-24",
+  "source_of_truth": "https://old-newbie.tistory.com/category/%EC%83%9D%ED%99%9C%EC%9D%98%20%EA%B8%B0%EB%A1%9D",
+  "count": 31,
+  "public_hub": "/life/essay/",
+  "legacy_hub": "/life/journal/",
+  "body_policy": "SOURCE_PRESERVE_NO_REWRITE",
+  "style": "/assets/series/essay.css",
+  "excluded_from_essay": [
+    {
+      "article_id": "ON-0159",
+      "source_post_id": 22,
+      "reason": "현재 HAVE+ 소속"
+    },
+    {
+      "article_id": "ON-0162",
+      "source_post_id": 19,
+      "reason": "현재 저속노화의 길/시간 지킴이 소속"
+    }
+  ],
+  "items": [
+    {
+      "article_id": "ON-0001",
+      "source_post_id": 191,
+      "source_url": "https://old-newbie.tistory.com/191",
+      "title": "아내의 작은 집념-양산 길막",
+      "public_url": "/wife-parasol-persistence",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0005",
+      "source_post_id": 14,
+      "source_url": "https://old-newbie.tistory.com/14",
+      "title": "쉰이 넘으면 다 생각한다, 예순이 넘으면 더 구체적으로 생각한다",
+      "public_url": "/thinking-after-sixty",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0069",
+      "source_post_id": 127,
+      "source_url": "https://old-newbie.tistory.com/127",
+      "title": "아끼느라 신지 않은 구두가 먼저 늙었다",
+      "public_url": "/unworn-shoes-aged-first",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0097",
+      "source_post_id": 101,
+      "source_url": "https://old-newbie.tistory.com/101",
+      "title": "행주 한 장과 종량제봉투 한 장의 힘",
+      "public_url": "/dishcloth-and-trash-bag-power",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0099",
+      "source_post_id": 99,
+      "source_url": "https://old-newbie.tistory.com/99",
+      "title": "같이 있는 것만으로 좋았던 사람",
+      "public_url": "/happy-just-being-together",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0107",
+      "source_post_id": 93,
+      "source_url": "https://old-newbie.tistory.com/93",
+      "title": "이순은 저절로 오지 않았다.",
+      "public_url": "/turning-sixty-takes-time",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0113",
+      "source_post_id": 16,
+      "source_url": "https://old-newbie.tistory.com/16",
+      "title": "중년 이후, 병문안은 건강검진보다 더 강한 경고가 된다",
+      "public_url": "/hospital-visit-health-warning",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0114",
+      "source_post_id": 91,
+      "source_url": "https://old-newbie.tistory.com/91",
+      "title": "잔소리의 등급표가 흐트러지는 나이",
+      "public_url": "/nagging-scale-in-middle-age",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0122",
+      "source_post_id": 11,
+      "source_url": "https://old-newbie.tistory.com/11",
+      "title": "이 거짓말쟁이를 어떻게 부릴 것인가",
+      "public_url": "/how-to-use-a-liar",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0123",
+      "source_post_id": 83,
+      "source_url": "https://old-newbie.tistory.com/83",
+      "title": "낚시터 빈 좌대 앞에서 생각한 법과 현실 — 공공장소의 편리는 누구를 위한 것일까",
+      "public_url": "/fishing-platform-law-and-reality",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0127",
+      "source_post_id": 68,
+      "source_url": "https://old-newbie.tistory.com/68",
+      "title": "[소비 패턴] 아내의 소비패턴 - 좋은 건 하나 더 쟁여두는 사람",
+      "public_url": "/wife-stockpiling-shopping-habit",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0128",
+      "source_post_id": 74,
+      "source_url": "https://old-newbie.tistory.com/74",
+      "title": "결혼기념일에 서브웨이를 먹었다",
+      "public_url": "/subway-on-anniversary",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0130",
+      "source_post_id": 73,
+      "source_url": "https://old-newbie.tistory.com/73",
+      "title": "요즘 드라마와 영화 속 남자의 자리 - 허울만 남은 가장의 쓸쓸한 농담",
+      "public_url": "/mens-place-in-dramas",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0131",
+      "source_post_id": 72,
+      "source_url": "https://old-newbie.tistory.com/72",
+      "title": "영화 군체를 보다가 옛날 드라마가 그리워졌다",
+      "public_url": "/missing-old-dramas",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0134",
+      "source_post_id": 67,
+      "source_url": "https://old-newbie.tistory.com/67",
+      "title": "[부부 여행] 아내와 여행한다는 것 - 잔소리와 든든함 사이의 여행 에세이",
+      "public_url": "/traveling-with-my-wife",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0144",
+      "source_post_id": 55,
+      "source_url": "https://old-newbie.tistory.com/55",
+      "title": "미뤄 둔 마음까지 다시 붙여 놓은 이야기 - 욕실 타일 수리",
+      "public_url": "/bathroom-tile-repair",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0146",
+      "source_post_id": 5,
+      "source_url": "https://old-newbie.tistory.com/5",
+      "title": "여유돈으로 시작했지만 마음은 여유롭지 않았다-처음 주식을 시작하며 세운 세 가지 원칙",
+      "public_url": "/first-stock-investment-rules",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0147",
+      "source_post_id": 51,
+      "source_url": "https://old-newbie.tistory.com/51",
+      "title": "미장원에서 머리를 자르며 ― 거울 속에서 아버지를 보았습니다",
+      "public_url": "/haircut-seeing-father-in-mirror",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0149",
+      "source_post_id": 9,
+      "source_url": "https://old-newbie.tistory.com/9",
+      "title": "늙었기에, 이제는 AI를 생각하게 됩니다",
+      "public_url": "/aging-and-ai",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0151",
+      "source_post_id": 45,
+      "source_url": "https://old-newbie.tistory.com/45",
+      "title": "태진아 사모곡을 듣다가 - 언젠가 내가 부르게 될 어머니 노래",
+      "public_url": "/listening-to-samogok",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0152",
+      "source_post_id": 8,
+      "source_url": "https://old-newbie.tistory.com/8",
+      "title": "전에는 약상자였고, 이제는 약창고입니다",
+      "public_url": "/medicine-box-to-cabinet",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0154",
+      "source_post_id": 6,
+      "source_url": "https://old-newbie.tistory.com/6",
+      "title": "건강해지고 싶어서 포트를 샀는데, 아직 박스째입니다-좋아지고 싶은 마음과 움직이지 않는 몸 사이",
+      "public_url": "/health-pot-still-in-box",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0156",
+      "source_post_id": 34,
+      "source_url": "https://old-newbie.tistory.com/34",
+      "title": "밀양 금시당 백곡재 산책 - 가을 은행나무보다 조용했던 봄·여름의 푸른 여행지",
+      "public_url": "/geumsidang-baekgokjae-walk",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0157",
+      "source_post_id": 21,
+      "source_url": "https://old-newbie.tistory.com/21",
+      "title": "“머라” — 그 말 하나로 설명되는 중년의 결혼 생활",
+      "public_url": "/middle-age-marriage-one-word",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0158",
+      "source_post_id": 20,
+      "source_url": "https://old-newbie.tistory.com/20",
+      "title": "중년을 지나 — 이름 없는 나이를 사는 한 남자의 고백",
+      "public_url": "/unnamed-age-after-middle-age",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0160",
+      "source_post_id": 10,
+      "source_url": "https://old-newbie.tistory.com/10",
+      "title": "기억을 믿었던 날- 기억은 사실이 아니라 감정일지도 모른다",
+      "public_url": "/memory-may-be-emotion",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0161",
+      "source_post_id": 32,
+      "source_url": "https://old-newbie.tistory.com/32",
+      "title": "노년을 즐기는 사람들 ― 《사랑인 줄 알았는데 부정맥》을 소개합니다",
+      "public_url": "/enjoying-old-age",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0163",
+      "source_post_id": 4,
+      "source_url": "https://old-newbie.tistory.com/4",
+      "title": "벚꽃 아래서 아내의 사진을 찍다가",
+      "public_url": "/taking-wife-photo-under-cherry-blossoms",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0164",
+      "source_post_id": 3,
+      "source_url": "https://old-newbie.tistory.com/3",
+      "title": "환갑을 넘겨도 끝나지 않는 가족의 거리감",
+      "public_url": "/family-distance-after-sixty",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0165",
+      "source_post_id": 2,
+      "source_url": "https://old-newbie.tistory.com/2",
+      "title": "환갑 다음 날, 나는 왜 새 블로그를 열고 싶어졌을까",
+      "public_url": "/day-after-sixty-new-blog",
+      "url_locked": true
+    },
+    {
+      "article_id": "ON-0166",
+      "source_post_id": 1,
+      "source_url": "https://old-newbie.tistory.com/1",
+      "title": "환갑 -축하만으로 다 말할 수 없는 나이.",
+      "public_url": "/sixty-beyond-congratulations",
+      "url_locked": true
+    }
+  ]
+}

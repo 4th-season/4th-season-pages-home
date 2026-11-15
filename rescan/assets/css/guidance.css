@@ -1,0 +1,61 @@
+.checklist-page .result-report{margin:28px 0;padding:34px 36px;border:1px solid #d8d0df;border-radius:24px;background:linear-gradient(180deg,#fffefa 0%,#fbf8fd 100%);box-shadow:0 14px 34px rgba(49,39,57,.07)}
+.checklist-page .report-label{margin:0 0 10px;color:var(--rs-purple-deep);font-size:.78rem;font-weight:900;letter-spacing:.13em}
+.checklist-page .report-title{margin:0;font-size:1.55rem;line-height:1.4;letter-spacing:-.035em}
+.checklist-page .report-opening{margin:18px 0 0;color:var(--rs-text);font-size:1.03rem;line-height:1.92}
+.checklist-page .report-overview{display:grid;grid-template-columns:minmax(150px,.65fr) minmax(230px,1.35fr);gap:18px;margin-top:24px;padding:22px;border:1px solid var(--rs-line);border-radius:18px;background:rgba(255,255,255,.8)}
+.checklist-page .report-overview-score{display:flex;flex-direction:column;justify-content:center;padding-right:18px;border-right:1px solid var(--rs-line)}
+.checklist-page .report-overview-score span{color:var(--rs-muted);font-size:.82rem;font-weight:800}
+.checklist-page .report-overview-score strong{margin-top:5px;font-size:1.8rem;line-height:1.2;color:var(--rs-purple-deep)}
+.checklist-page .report-overview-detail p{margin:0;color:var(--rs-text);font-size:.94rem;line-height:1.7}
+.checklist-page .report-overview-detail p+p{margin-top:6px}
+.checklist-page .report-overview-note{grid-column:1/-1;margin:0;padding-top:15px;border-top:1px solid var(--rs-line);color:var(--rs-muted);font-size:.88rem;line-height:1.7}
+.checklist-page .report-section{margin-top:28px;padding-top:24px;border-top:1px solid var(--rs-line)}
+.checklist-page .report-section h4{margin:0 0 14px;font-size:1.08rem;line-height:1.5;letter-spacing:-.02em}
+.checklist-page .report-section p{margin:0;color:var(--rs-muted);font-size:.98rem;line-height:1.92}
+.checklist-page .report-section p+p{margin-top:15px}
+.checklist-page .report-list{margin:0;padding-left:1.2rem;color:var(--rs-muted)}
+.checklist-page .report-list li{line-height:1.85}
+.checklist-page .report-list li+li{margin-top:9px}
+.checklist-page .report-comfort{padding:24px 25px;border:1px solid #dfd5e6;border-radius:18px;background:rgba(255,255,255,.78)}
+.checklist-page .report-comfort h4{color:var(--rs-purple-deep)}
+.checklist-page .report-pause{margin:26px 0 0;padding:20px 22px;border-left:4px solid var(--rs-purple);background:#fff;color:var(--rs-text);font-weight:750;line-height:1.8}
+.checklist-page .report-experiment{padding:22px 24px;border:1px solid #cad9cc;border-radius:18px;background:#f7fbf7}
+.checklist-page .report-experiment h4{color:#48684d}
+.checklist-page .report-question{padding:22px 24px;border:1px solid #d8cfdf;border-radius:18px;background:#fcf9fd}
+.checklist-page .report-question h4{color:var(--rs-purple-deep)}
+.checklist-page .report-help{margin-top:24px;padding:20px 22px;border:1px solid #d8d0bd;border-radius:16px;background:#fffaf0}
+.checklist-page .report-help strong{display:block;margin-bottom:8px;color:#765b28}
+.checklist-page .report-help p{margin:0;color:#655b47;line-height:1.75}
+.checklist-page .report-safety{margin-top:16px;padding:20px 22px;border:1px solid #d9c6c3;border-radius:16px;background:#fff8f6}
+.checklist-page .report-safety strong{display:block;margin-bottom:8px;color:#7e4038}
+.checklist-page .report-safety p{margin:0;color:#6e514d;line-height:1.75}
+.checklist-page .guidance-card{position:relative;overflow:hidden;padding:30px;border-color:#d6c9de;background:linear-gradient(145deg,#fffdf9 0%,#faf6fd 100%)}
+.checklist-page .guidance-card:before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--rs-purple-deep),var(--rs-purple))}
+.checklist-page .guidance-label{margin:0 0 9px;color:var(--rs-purple-deep);font-size:.78rem;font-weight:900;letter-spacing:.12em}
+.checklist-page .guidance-card h3{margin:0;font-size:1.35rem;line-height:1.4;letter-spacing:-.025em}
+.checklist-page .guidance-scene{margin:16px 0 0;color:var(--rs-text);font-size:1rem;line-height:1.85}
+.checklist-page .guidance-response{margin-top:22px;padding:20px 22px;border-top:1px solid var(--rs-line);border-bottom:1px solid var(--rs-line);background:rgba(255,255,255,.7)}
+.checklist-page .guidance-response h4{margin:0 0 9px;color:var(--rs-purple-deep);font-size:.94rem;line-height:1.5}
+.checklist-page .guidance-response p{margin:0;color:var(--rs-muted);line-height:1.82}
+.checklist-page .guidance-question .guidance-response{border-left:3px solid #9f83bd}
+.checklist-page .guidance-experiment .guidance-response{border-left:3px solid #758f78}
+.checklist-page .guidance-scene .guidance-response{border-left:3px solid #b59a70}
+@media print{
+  .checklist-page .result-report{box-shadow:none;break-inside:auto;background:#fff}
+  .checklist-page .report-overview,.checklist-page .report-section,.checklist-page .report-comfort,.checklist-page .report-experiment,.checklist-page .report-question,.checklist-page .report-help,.checklist-page .report-safety{break-inside:avoid}
+  .checklist-page .report-overview{grid-template-columns:1fr 2fr}
+}
+@media(max-width:560px){
+  .checklist-page .result-report{padding:25px 21px;border-radius:18px;overflow-wrap:anywhere}
+  .checklist-page .report-title{font-size:1.3rem}
+  .checklist-page .report-opening,.checklist-page .report-section p{font-size:.96rem;line-height:1.83}
+  .checklist-page .report-overview{grid-template-columns:1fr;padding:18px}
+  .checklist-page .report-overview-score{padding:0 0 14px;border-right:0;border-bottom:1px solid var(--rs-line)}
+  .checklist-page .report-overview-note{grid-column:1}
+  .checklist-page .report-comfort,.checklist-page .report-experiment,.checklist-page .report-question{padding:20px 18px}
+  .checklist-page .guidance-card{padding:24px 21px}
+  .checklist-page .guidance-card h3{font-size:1.2rem}
+  .checklist-page .guidance-response{padding:17px 16px}
+}
+
+.checklist-page .report-resources,.checklist-page .report-signals{scroll-margin-top:96px}

@@ -1,0 +1,79 @@
+/* RETHINK_INTRO_SHARED_V1_20261024
+   Shared ARTICLE opening only. Does not style HUBs, covers, or article body.
+   Single CSS source for Datafication and Digital Surveillance.
+*/
+.rt header.hero.rt-intro-shared-v1 {
+  display:block;
+  isolation:isolate;
+  padding:52px 46px 44px;
+  margin:0;
+  color:#fff;
+  background:linear-gradient(140deg,#253f46 0%,#487177 65%,#7a796c 100%);
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:25px;
+  overflow:hidden;
+  box-shadow:0 14px 32px rgba(32,61,67,.11);
+  word-break:keep-all;
+}
+.rt header.hero.rt-intro-shared-v1 .rt-intro__kicker {
+  margin:0 0 12px;
+  color:#e5f4f2;
+  font-size:.78rem;
+  font-weight:800;
+  letter-spacing:.12em;
+  line-height:1.6;
+}
+.rt header.hero.rt-intro-shared-v1 h1.rt-intro__title {
+  color:#fff;
+  font-size:clamp(2.05rem,5vw,3.25rem);
+  line-height:1.21;
+  letter-spacing:-.047em;
+  margin:.5rem 0 1.15rem;
+  overflow-wrap:break-word;
+}
+.rt header.hero.rt-intro-shared-v1 p.rt-intro__lead {
+  color:#f6f9f8;
+  font-size:1.05rem;
+  line-height:1.94;
+  margin:0 0 1.05rem;
+  font-weight:400;
+}
+.rt header.hero.rt-intro-shared-v1 p.rt-intro__lead strong {
+  color:#fff;
+  font-weight:750;
+}
+.rt header.hero.rt-intro-shared-v1 .rt-intro__question {
+  border:1px solid rgba(255,255,255,.27);
+  background:rgba(255,255,255,.07);
+  border-radius:14px;
+  padding:20px 24px;
+  margin-top:27px;
+  line-height:1.84;
+  color:#f8fbfb;
+}
+.rt header.hero.rt-intro-shared-v1 .rt-intro__question b,
+.rt header.hero.rt-intro-shared-v1 .rt-intro__question strong {
+  color:#fff;
+  font-weight:750;
+}
+@media (max-width:720px) {
+  .rt header.hero.rt-intro-shared-v1 {
+    padding:36px 24px;
+    border-radius:20px;
+  }
+  .rt header.hero.rt-intro-shared-v1 h1.rt-intro__title {
+    font-size:clamp(1.82rem,7.2vw,2.55rem);
+    line-height:1.27;
+  }
+  .rt header.hero.rt-intro-shared-v1 p.rt-intro__lead {
+    font-size:1rem;
+    line-height:1.86;
+  }
+  .rt header.hero.rt-intro-shared-v1 .rt-intro__question {
+    margin-top:22px;
+    padding:18px 19px;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  .rt header.hero.rt-intro-shared-v1 { scroll-behavior:auto; }
+}

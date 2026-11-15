@@ -1,0 +1,53 @@
+/* HOME_STATS_RECOUNT_EFFECT_R2_20261003 */
+/* ALL / SERIES는 별도 요약행, 지식·오늘 영역은 하부 5테마와 정확히 같은 5열 */
+html body #s4-home-stats{
+  display:grid!important;
+  grid-template-columns:repeat(5,minmax(0,1fr))!important;
+  grid-template-areas:
+    "all all series series series"
+    "learn world life insite choice"!important;
+  margin:24px 0 20px!important;
+  border-top:1px solid rgba(55,58,55,.14)!important;
+  border-bottom:1px solid rgba(55,58,55,.14)!important;
+  color:inherit;
+}
+html body #s4-home-stats > .s4hs-item{
+  min-width:0;
+  padding:12px 10px 13px!important;
+  border-right:0!important;
+  border-bottom:0!important;
+}
+html body #s4-home-stats > .s4hs-item:nth-child(1){grid-area:all;border-right:1px solid rgba(55,58,55,.12)!important;border-bottom:1px solid rgba(55,58,55,.12)!important;}
+html body #s4-home-stats > .s4hs-item:nth-child(2){grid-area:series;border-bottom:1px solid rgba(55,58,55,.12)!important;}
+html body #s4-home-stats > .s4hs-item:nth-child(3){grid-area:insite;border-right:1px solid rgba(55,58,55,.12)!important;}
+html body #s4-home-stats > .s4hs-item:nth-child(4){grid-area:learn;border-right:1px solid rgba(55,58,55,.12)!important;}
+html body #s4-home-stats > .s4hs-item:nth-child(5){grid-area:world;border-right:1px solid rgba(55,58,55,.12)!important;}
+html body #s4-home-stats > .s4hs-item:nth-child(6){grid-area:life;border-right:1px solid rgba(55,58,55,.12)!important;}
+html body #s4-home-stats > .s4hs-choice{grid-area:choice!important;border-right:0!important;}
+html body #s4-home-stats > .s4hs-item span{display:block;margin:0 0 4px;color:#777169;font-size:8px;font-weight:900;line-height:1;letter-spacing:.12em;}
+html body #s4-home-stats > .s4hs-item strong{display:block;font-size:clamp(19px,2vw,29px);font-weight:820;line-height:1;letter-spacing:-.045em;}
+html body #s4-home-stats > .s4hs-item:nth-child(1) span,
+html body #s4-home-stats > .s4hs-item:nth-child(2) span{color:#68635d;}
+html body #s4-home-stats > .s4hs-item:nth-child(3) span,
+html body #s4-home-stats > .s4hs-item:nth-child(3) strong{color:#a35b46;}
+html body #s4-home-stats > .s4hs-choice span,
+html body #s4-home-stats > .s4hs-choice strong{color:#2f728e;}
+@media(max-width:760px){
+  html body #s4-home-stats{
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    grid-template-areas:"all series" "learn world" "life insite" "choice choice"!important;
+  }
+  html body #s4-home-stats > .s4hs-item:nth-child(1),
+  html body #s4-home-stats > .s4hs-item:nth-child(2),
+  html body #s4-home-stats > .s4hs-item:nth-child(4),
+  html body #s4-home-stats > .s4hs-item:nth-child(6){border-right:1px solid rgba(55,58,55,.12)!important;}
+  html body #s4-home-stats > .s4hs-item:nth-child(3),
+  html body #s4-home-stats > .s4hs-item:nth-child(5){border-right:0!important;}
+  html body #s4-home-stats > .s4hs-item:nth-child(1),
+  html body #s4-home-stats > .s4hs-item:nth-child(2),
+  html body #s4-home-stats > .s4hs-item:nth-child(4),
+  html body #s4-home-stats > .s4hs-item:nth-child(5),
+  html body #s4-home-stats > .s4hs-item:nth-child(6),
+  html body #s4-home-stats > .s4hs-item:nth-child(3){border-bottom:1px solid rgba(55,58,55,.10)!important;}
+  html body #s4-home-stats > .s4hs-choice{border-bottom:0!important;}
+}

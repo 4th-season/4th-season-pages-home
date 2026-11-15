@@ -1,0 +1,33 @@
+/* Re:Sign ARTICLE Rebuild Pilot v1 · isolated inside .rs-rb */
+.rs-rb{--rs-ink:#223b41;--rs-line:#dbe8e8;--rs-quiet:#506b70;max-width:940px}
+.rs-rb .rs-rb__intro{padding:48px 46px 38px;border-radius:23px;background:linear-gradient(140deg,#24464e 0%,#457479 68%,#737b6b 100%);color:#fff;border:1px solid rgba(255,255,255,.16);box-shadow:0 14px 30px rgba(29,59,67,.10);isolation:isolate;word-break:keep-all}
+.rs-rb .rs-rb__intro .kicker{font-size:.78rem;letter-spacing:.12em;color:#e2f2f0;margin-bottom:11px}
+.rs-rb .rs-rb__intro h1{color:#fff;font-size:clamp(2rem,4.3vw,3.08rem);line-height:1.23;letter-spacing:-.047em;margin:.5rem 0 1.06rem}
+.rs-rb .rs-rb__lead{font-size:1.04rem;line-height:1.88;color:#f6f9f8;margin:0 0 13px}
+.rs-rb .rs-rb__opening{margin:12px 0 0;color:#f5f9f8}
+.rs-rb .rs-rb__opening p,.rs-rb .rs-rb__opening p:first-child{font-size:1rem;line-height:1.9;margin:.7rem 0}
+.rs-rb .rs-rb__opening strong{color:#fff}
+.rs-rb .rs-rb__question{border:1px solid rgba(255,255,255,.34);background:rgba(255,255,255,.08);margin:22px 0 0;padding:17px 20px;border-radius:12px;font-size:1.07rem;font-weight:750;color:white}
+.rs-rb figure.rs-rb__cover{display:flex;position:relative;width:100%;height:auto;aspect-ratio:3/1;overflow:hidden;margin:23px 0 24px;border-radius:17px;border:1px solid #d9e4e1;background:#f3f1e9;box-shadow:0 9px 24px rgba(30,58,64,.09);align-items:center;justify-content:center}
+.rs-rb figure.rs-rb__cover>img{width:100%;height:100%;aspect-ratio:auto;display:block;border-radius:0;max-height:none;object-fit:contain;object-position:center;box-shadow:none}
+.rs-rb figure.rs-rb__cover figcaption{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;white-space:nowrap;clip-path:inset(50%);margin:0}
+.rs-rb nav.rs-rb__toc{display:block;width:100%;margin:0 0 36px;padding:24px 27px;background:#fcfdfd;border:1px solid var(--rs-line);border-radius:17px;color:var(--rs-ink)}
+.rs-rb nav.rs-rb__toc>strong{display:block;font-size:.90rem;margin:0 0 10px;font-weight:800;color:#214954}
+.rs-rb nav.rs-rb__toc ol{display:block;columns:2;column-gap:2.25rem;list-style:decimal outside;margin:0;padding-left:1.45em;font-size:.93rem;line-height:1.68}
+.rs-rb nav.rs-rb__toc li{break-inside:avoid;margin:.42rem 0 .67rem;padding:0;color:#2d606c}
+.rs-rb nav.rs-rb__toc a{font-weight:550;text-decoration:none;color:#275969;overflow-wrap:anywhere}
+.rs-rb nav.rs-rb__toc a:hover,.rs-rb nav.rs-rb__toc a:focus-visible{text-decoration:underline;color:#17414d;outline-offset:3px}
+.rs-rb .rs-rb__article{font-size:1rem;line-height:1.94}
+.rs-rb .rs-rb__group{margin:0 0 50px;padding:32px 0 0;border-top:1px solid var(--rs-line);scroll-margin-top:90px}
+.rs-rb .rs-rb__group>h2{font-size:clamp(1.44rem,2.5vw,1.88rem);color:#21454e;line-height:1.48;letter-spacing:-.025em;margin:0 0 19px}
+.rs-rb .rs-rb__subsection{margin:24px 0 30px;padding:0;scroll-margin-top:90px}
+.rs-rb .rs-rb__subsection h3{font-size:1.13rem;line-height:1.55;font-weight:780;margin:0 0 15px;padding:0 0 0 12px;border-left:3px solid #86a8a4;color:#34595e}
+.rs-rb .rs-rb__subsection p{margin:0 0 14px}
+.rs-rb .rs-rb__sources{margin:48px 0 0;padding-top:25px;border-top:1px solid var(--rs-line)}
+.rs-rb .rs-rb__sources h2{font-size:1.44rem;line-height:1.5;color:#244e58;margin:0 0 15px}
+.rs-rb nav.rs-rb__related{margin:34px 0 0;padding:23px 27px;border:1px solid var(--rs-line);border-radius:17px;background:#f4f9f8}
+.rs-rb nav.rs-rb__related h2{margin:0 0 15px;font-size:1.39rem;color:#244e58}
+.rs-rb nav.rs-rb__related a{display:inline-block;margin:0 16px 9px 0;font-size:.97rem;color:#245d65;text-decoration:underline;text-underline-offset:3px}
+.rs-rb .section .object-row,.rs-rb .section .contrast,.rs-rb .section .digital,.rs-rb .section .crossed{max-width:100%}
+@media(max-width:720px){.rs-rb .rs-rb__intro{padding:33px 23px 29px;border-radius:19px}.rs-rb .rs-rb__intro h1{font-size:clamp(1.75rem,6vw,2.48rem)}.rs-rb figure.rs-rb__cover{aspect-ratio:3/1;margin:16px 0 19px;border-radius:12px}.rs-rb nav.rs-rb__toc{padding:20px 20px;margin-bottom:27px}.rs-rb nav.rs-rb__toc ol{columns:1;padding-left:1.4em}.rs-rb .rs-rb__group{margin-bottom:33px;padding-top:25px}.rs-rb .rs-rb__group>h2{font-size:1.38rem}.rs-rb .rs-rb__subsection h3{font-size:1.05rem}.rs-rb nav.rs-rb__related{padding:19px}}
+@media(prefers-reduced-motion:reduce){.rs-rb nav.rs-rb__toc{scroll-behavior:auto}}

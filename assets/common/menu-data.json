@@ -1,0 +1,224 @@
+{
+  "version": "COMMON-MENU-SYSTEM-v1-20260919-LIFE-ESSAY-20260924",
+  "sections": {
+    "LIFE": {
+      "label": "LIFE",
+      "href": "/life/",
+      "items": [
+        {
+          "key": "have-plus",
+          "label": "HAVE+",
+          "href": "/life/have-plus/"
+        },
+        {
+          "key": "reword",
+          "label": "Re:Word",
+          "href": "/life/reword/"
+        },
+        {
+          "key": "rebuild",
+          "label": "Re:Build",
+          "href": "/life/rebuild/"
+        },
+        {
+          "key": "essay",
+          "label": "생활의 기록",
+          "href": "/life/essay/"
+        }
+      ]
+    },
+    "WORLD": {
+      "label": "WORLD",
+      "href": "/world/",
+      "items": [
+        {
+          "key": "resite",
+          "label": "Re:Site",
+          "href": "/world/resite/",
+          "subitems": [
+            {
+              "key": "social-phenomena",
+              "label": "사회현상",
+              "href": "/world/resite/social-phenomena/"
+            },
+            {
+              "key": "social-psychology",
+              "label": "사회심리",
+              "href": "/world/resite/social-psychology/"
+            },
+            {
+              "key": "power-institutions",
+              "label": "권력과 제도",
+              "href": "/world/resite/power-institutions/"
+            },
+            {
+              "key": "relationships-community",
+              "label": "관계와 공동체",
+              "href": "/world/resite/relationships-community/"
+            },
+            {
+              "key": "culture-discourse",
+              "label": "문화와 담론",
+              "href": "/world/resite/culture-discourse/"
+            },
+            {
+              "key": "ways-of-life",
+              "label": "삶의 방식",
+              "href": "/world/resite/ways-of-life/"
+            }
+          ]
+        },
+        {
+          "key": "resign",
+          "label": "Re:Sign",
+          "href": "/world/resign/"
+        },
+        {
+          "key": "rethink",
+          "label": "Re:Think",
+          "href": "/world/rethink/",
+          "subitems": [
+            {
+              "key": "human-condition",
+              "label": "인간의 조건",
+              "href": "/world/rethink/human-condition/"
+            },
+            {
+              "key": "knowledge-language",
+              "label": "인식과 언어",
+              "href": "/world/rethink/knowledge-language/"
+            },
+            {
+              "key": "power-norms",
+              "label": "권력과 규범",
+              "href": "/world/rethink/power-norms/"
+            },
+            {
+              "key": "other-good-life",
+              "label": "타자와 좋은 삶",
+              "href": "/world/rethink/other-good-life/"
+            },
+            {
+              "key": "technology-images",
+              "label": "기술과 이미지",
+              "href": "/world/rethink/technology-images/"
+            }
+          ]
+        },
+        {
+          "key": "remark",
+          "label": "Re:Mark",
+          "href": "/world/remark/"
+        },
+        {
+          "key": "relaw",
+          "label": "Re:Law",
+          "href": "/world/relaw/"
+        },
+        {
+          "key": "insite",
+          "label": "In:Site",
+          "href": "/world/insite/"
+        }
+      ]
+    },
+    "LEARN": {
+      "label": "LEARN",
+      "href": "/learn/",
+      "items": [
+        {
+          "key": "literacy",
+          "label": "문해",
+          "href": "/learn/literacy/"
+        },
+        {
+          "key": "grammar",
+          "label": "문법",
+          "href": "/learn/grammar/"
+        },
+        {
+          "key": "reread",
+          "label": "Re:Read",
+          "href": "/learn/reread/"
+        },
+        {
+          "key": "quote-prestige",
+          "label": "명언의 품격",
+          "href": "/learn/quote-prestige/"
+        }
+      ]
+    }
+  },
+  "id_prefix_rules": [
+    {
+      "prefix": "REMARK",
+      "section": "WORLD",
+      "series": "remark"
+    },
+    {
+      "prefix": "RT-",
+      "section": "WORLD",
+      "series": "rethink"
+    },
+    {
+      "prefix": "RETHINK",
+      "section": "WORLD",
+      "series": "rethink"
+    },
+    {
+      "prefix": "RS-",
+      "section": "WORLD",
+      "series": "resite"
+    },
+    {
+      "prefix": "RESITE",
+      "section": "WORLD",
+      "series": "resite"
+    },
+    {
+      "prefix": "RESIGN",
+      "section": "WORLD",
+      "series": "resign"
+    },
+    {
+      "prefix": "RELAW",
+      "section": "WORLD",
+      "series": "relaw"
+    },
+    {
+      "prefix": "INSITE",
+      "section": "WORLD",
+      "series": "insite"
+    },
+    {
+      "prefix": "KML-",
+      "section": "LEARN",
+      "series": "literacy"
+    },
+    {
+      "prefix": "GRAM",
+      "section": "LEARN",
+      "series": "grammar"
+    },
+    {
+      "prefix": "REWORD",
+      "section": "LIFE",
+      "series": "reword"
+    },
+    {
+      "prefix": "REBUILD",
+      "section": "LIFE",
+      "series": "rebuild"
+    },
+    {
+      "prefix": "JOURNAL",
+      "section": "LIFE",
+      "series": "essay"
+    },
+    {
+      "prefix": "ESSAY",
+      "section": "LIFE",
+      "series": "essay"
+    }
+  ]
+}
